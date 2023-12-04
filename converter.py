@@ -33,9 +33,8 @@ COLORS = {
     "FFFFFF": "FFFF",
 }
 
-resy: int = 360
 resx: int = 640
-
+resy: int = 360
 
 def get_mill(time: str) -> int:
     """
@@ -89,7 +88,7 @@ for path in args.path:
                 if line.startswith("Caption"):
                     position = re.search(r"position:(\d+)", lines[x + 1]).group(1) or 0
                     line = re.search(r"line:(\d+)", lines[x + 1]).group(1) or 0
-                    event.text = f"{{\\an7\\pos({round(resy*float(position) / 100, 2)},{round(resx*float(line) / 100, 2)})}}{event.text}"
+                    event.text = f"{{\\an7\\pos({round(resx*float(position) / 100, 2)},{round(resy*float(line) / 100, 2)})}}{event.text}"
                     event.style = "Caption"
                 else:
                     if line := re.search(r"line:(\d+)", lines[x + 1]):
