@@ -145,7 +145,11 @@ for path in args.path:
         font = [y for y in x[-1] if "font-family" in y]
         size = [y.strip(" font-size:") for y in x[-1] if "font-size" in y]
         color = [y.strip(" color:").strip("#") for y in x[-1] if "color" in y]
-
+        fontstyle = [y.strip(" font-style:") for y in x[-1] if "font-style" in y]
+        if fontstyle and "italic" in fontstyle[0].lower():
+            add += f"\\i1"
+        elif fontstyle:
+            print(f"Unknown fontsyle: {fontstyle}")
         if size and (size := size[0].replace(".", "0.").strip("em")) and size != "1":
             add += f"\\fs{size}"
         if font and (font := font[0].split(",")[-1].strip('"')) and font != "Arial":
@@ -155,6 +159,7 @@ for path in args.path:
             and (color := color[0].strip(";"))
             and color != "yellow"
             and color != "FFFFFF"
+            and "font-style:italic" not in x
         ):
             add += f"\\c&H{COLORS.get(color, color)}&"
 
@@ -199,7 +204,7 @@ for path in args.path:
                         if ("pos" not in y) and (y not in sub[s - 1].text)
                     ]
                     if sec_:
-                        x.text = "{" + "\\".join(sec_) + sec[-1]
+                        x.text = "{" + "\\" + "\\".join(sec_) + "}" + sec[-1]
                     else:
                         x.text = sec[-1]
                 sub[s - 1].text += f"\\N{color}{x.text}"
