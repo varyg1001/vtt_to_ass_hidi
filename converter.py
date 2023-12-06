@@ -37,6 +37,7 @@ COLORS = {
     "white": "FFFF",
     "yellow": "FFFFFF",
     "FFFFFF": "FFFF",
+    "HFFFF00": "FFFF",
 }
 
 res_x: int = 640
