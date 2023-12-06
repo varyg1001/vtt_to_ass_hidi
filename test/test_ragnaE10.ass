@@ -12,415 +12,415 @@ ScriptType: v4.00+
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Default,Arial,25,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100.0,100.0,0.0,0.0,1,1,0,2,10,10,10,1
-Style: Top,Arial,25,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100.0,100.0,0.0,0.0,1,1,0,8,10,10,10,1
+Style: Top,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100.0,100.0,0.0,0.0,1,1,0,8,10,10,10,1
 Style: Caption,Arial,25,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100.0,100.0,0.0,0.0,1,1,0.5,2,10,10,10,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:10.21,0:00:12.46,Default,,0,0,0,,Christopher, Shin. Make your report.
-Dialogue: 0,0:00:12.46,0:00:13.83,Default,,0,0,0,,Yes, ma'am.
-Dialogue: 0,0:00:13.83,0:00:15.21,Default,,0,0,0,,You've got it.
-Dialogue: 0,0:00:15.75,0:00:19.08,Default,,0,0,0,,But, well, it's exactly as you said.
-Dialogue: 0,0:00:19.88,0:00:22.17,Default,,0,0,0,,The dragons are behaving strangely.
-Dialogue: 0,0:00:23.00,0:00:27.21,Default,,0,0,0,,There was no activity\Nuntil this morning, but, well...
-Dialogue: 0,0:00:27.67,0:00:29.63,Default,,0,0,0,,They don't seem to be out for blood.
-Dialogue: 0,0:00:30.17,0:00:32.63,Default,,0,0,0,,We got fairly close to them,
-Dialogue: 0,0:00:32.63,0:00:37.46,Default,,0,0,0,,but there was no indication they'd\Nimmediately attack if a signal was given.
-Dialogue: 0,0:00:37.79,0:00:40.04,Default,,0,0,0,,We thought the same thing!
-Dialogue: 0,0:00:40.04,0:00:42.63,Default,,0,0,0,,It's like they're preoccupied.
-Dialogue: 0,0:00:42.63,0:00:44.42,Default,,0,0,0,,It was like a funeral!
-Dialogue: 0,0:00:44.67,0:00:47.04,Default,,0,0,0,,What's wrong with the superior dragons?
-Dialogue: 0,0:00:47.04,0:00:49.17,Default,,0,0,0,,In all likelihood, they're somewhere else.
-Dialogue: 0,0:00:49.54,0:00:54.08,Default,,0,0,0,,Actually, there's no definite proof\Nthat filth was telling the truth.
-Dialogue: 0,0:00:54.92,0:00:57.00,Default,,0,0,0,,I'm not sure why they're acting this way,\Nbut this is a good opportunity.
-Dialogue: 0,0:00:57.33,0:00:58.63,Default,,0,0,0,,A good opportunity?
-Dialogue: 0,0:00:58.88,0:01:03.21,Default,,0,0,0,,The dragons certainly do not want\Nto let us off the hook.
-Dialogue: 0,0:01:03.21,0:01:06.50,Default,,0,0,0,,If that was the case,\Nthey would have raised their siege.
-Dialogue: 0,0:01:06.50,0:01:07.54,Default,,0,0,0,,Uh-huh.
-Dialogue: 0,0:01:07.96,0:01:11.33,Default,,0,0,0,,Some issue must have cropped up\Nfor the superior dragons
-Dialogue: 0,0:01:11.33,0:01:13.50,Default,,0,0,0,,that temporarily takes priority over us.
-Dialogue: 0,0:01:13.50,0:01:15.00,Default,,0,0,0,,This is what I must assume.
-Dialogue: 0,0:01:15.58,0:01:18.71,Default,,0,0,0,,It's utterly insulting.\NBut it's an insult to be thankful for.
-Dialogue: 0,0:01:19.08,0:01:19.88,Default,,0,0,0,,Majorca.
-Dialogue: 0,0:01:19.88,0:01:20.75,Default,,0,0,0,,Yes, ma'am!
-Dialogue: 0,0:01:20.75,0:01:23.08,Top,,0,0,0,,How much longer will the\Nteleportation circle take to prepare?
-Dialogue: 0,0:01:20.92,0:01:26.50,Caption,,0,0,0,,{\an7\pos(268.8,280.8)\fs21\fnTimes New Roman}Thaumaturge\N{\an7\pos(256.0,306.0)\fs21\fnTimes New Roman}Majorca Abbott
-Dialogue: 0,0:01:23.08,0:01:24.29,Top,,0,0,0,,Ah! Yes, Your Highness!
-Dialogue: 0,0:01:24.29,0:01:26.67,Top,,0,0,0,,Um, Fu said it'll take one day\Nif we work ourselves to death,
-Dialogue: 0,0:01:26.67,0:01:30.92,Default,,0,0,0,,so it'll take two days to complete,\NYour Highness!
-Dialogue: 0,0:01:30.92,0:01:33.17,Default,,0,0,0,,Princess Lia addressed me! With words!
-Dialogue: 0,0:01:33.17,0:01:37.42,Top,,0,0,0,,{\c&HFFFF&}Tell Fu to get it done in one day\N{\c&HFFFF&}without anyone dying.
-Dialogue: 0,0:01:33.17,0:01:37.42,Default,,0,0,0,,Being this close to the princess and breathing\Nthe same air as her fills me with ecstasy!
-Dialogue: 0,0:01:38.33,0:01:40.58,Default,,0,0,0,,Our country has already lost.
-Dialogue: 0,0:01:41.04,0:01:44.38,Default,,0,0,0,,On the first night, five cities\Nand the capital fell.
-Dialogue: 0,0:01:44.38,0:01:48.00,Default,,0,0,0,,I cannot fathom just how many citizens\Nhave been devoured by dragons.
-Dialogue: 0,0:01:48.25,0:01:50.67,Default,,0,0,0,,The only thing we can do is flee the country
-Dialogue: 0,0:01:50.67,0:01:55.13,Default,,0,0,0,,with only the fifteen hundred citizens\Nwe've gathered here.
-Dialogue: 0,0:01:55.13,0:01:57.33,Default,,0,0,0,,It is entirely disgraceful.
-Dialogue: 0,0:01:57.75,0:01:59.33,Default,,0,0,0,,But we shall escape!
-Dialogue: 0,0:01:59.33,0:02:03.83,Default,,0,0,0,,We'll show those loathsome dragons\Nthey can't always have their way with us!
-Dialogue: 0,0:02:04.17,0:02:05.21,Default,,0,0,0,,We will survive!
-Dialogue: 0,0:02:05.50,0:02:08.46,Default,,0,0,0,,Our people, the corps,\Nand every single one of you!
-Dialogue: 0,0:02:08.46,0:02:10.13,Default,,0,0,0,,That was fantastic!
-Dialogue: 0,0:02:10.13,0:02:12.63,Default,,0,0,0,,I expected nothing less from\Nthe renowned Silverware Princess.
-Dialogue: 0,0:02:12.63,0:02:15.33,Default,,0,0,0,,Even your excuses for turning tail\Nwere dripping with charisma.
-Dialogue: 0,0:02:16.29,0:02:18.21,Default,,0,0,0,,Just who the hell are you?
-Dialogue: 0,0:02:18.21,0:02:19.67,Default,,0,0,0,,Knock it off, you two!
-Dialogue: 0,0:02:19.67,0:02:21.50,Default,,0,0,0,,So you decided to make an appearance, filth.
-Dialogue: 0,0:02:21.50,0:02:25.67,Default,,0,0,0,,I was going to pretend\NI never saw you for a while,
-Dialogue: 0,0:02:25.67,0:02:28.04,Default,,0,0,0,,but you just had to show up!
-Dialogue: 0,0:02:29.63,0:02:32.54,Default,,0,0,0,,You bastard! What did you do\Nto the commander?
-Dialogue: 0,0:02:32.54,0:02:35.25,Default,,0,0,0,,Hold up, hold up!\NWe already discussed this!
-Dialogue: 0,0:04:06.38,0:04:12.33,Caption,,0,0,0,,{\an7\pos(358.4,298.8)\fs17\fnTimes New Roman}Episode 10: Stakes and Cooperation
-Dialogue: 0,0:04:08.33,0:04:11.50,Default,,0,0,0,,I told you to behave yourselves!
-Dialogue: 0,0:04:11.50,0:04:15.38,Default,,0,0,0,,This guy doesn't feel strong in the slightest!
-Dialogue: 0,0:04:15.67,0:04:19.67,Default,,0,0,0,,Hey, Hesela. Do you think\None of those two might be him?
-Dialogue: 0,0:04:19.67,0:04:22.71,Default,,0,0,0,,Totally, Greya! It must be one of them!
-Dialogue: 0,0:04:23.17,0:04:25.71,Default,,0,0,0,,This is an incredibly skilled group.
-Dialogue: 0,0:04:25.71,0:04:28.33,Default,,0,0,0,,There are even people who are\Nstronger than Leo here.
-Dialogue: 0,0:04:28.33,0:04:29.17,Default,,0,0,0,,But...
-Dialogue: 0,0:04:29.17,0:04:30.96,Default,,0,0,0,,What happened to the guards?
-Dialogue: 0,0:04:30.96,0:04:34.79,Default,,0,0,0,,I asked them to let us through,\Nand they very kindly obliged.
-Dialogue: 0,0:04:34.79,0:04:35.71,Default,,0,0,0,,What?
-Dialogue: 0,0:04:36.04,0:04:39.17,Default,,0,0,0,,We'd like to lend you a hand\Nin your escape plan.
-Dialogue: 0,0:04:40.00,0:04:42.33,Default,,0,0,0,,I got the gist of your plan.
-Dialogue: 0,0:04:42.33,0:04:44.63,Default,,0,0,0,,You want to use dragon's blood\Nas a magical energy source
-Dialogue: 0,0:04:44.63,0:04:46.50,Default,,0,0,0,,and teleport out of the country.
-Dialogue: 0,0:04:46.50,0:04:47.63,Default,,0,0,0,,Am I correct?
-Dialogue: 0,0:04:48.17,0:04:50.21,Default,,0,0,0,,I think that's a solid plan.
-Dialogue: 0,0:04:50.21,0:04:52.38,Default,,0,0,0,,But it won't be successful.
-Dialogue: 0,0:04:52.38,0:04:53.83,Default,,0,0,0,,The reason is simple.
-Dialogue: 0,0:04:53.83,0:04:56.21,Default,,0,0,0,,The difference in military power between\Nyou and your adversary is too great.
-Dialogue: 0,0:04:56.21,0:04:59.38,Default,,0,0,0,,If you allow us to work together with you,
-Dialogue: 0,0:04:59.38,0:05:01.46,Default,,0,0,0,,I will give you detailed intel\Nabout the enemy.
-Dialogue: 0,0:05:01.46,0:05:03.13,Default,,0,0,0,,Better yet,
-Dialogue: 0,0:05:03.13,0:05:06.38,Default,,0,0,0,,I can provide you a superweapon capable of\Nslaying superior dragons unassisted.
-Dialogue: 0,0:05:06.67,0:05:08.29,Default,,0,0,0,,Ragna the Reaper.
-Dialogue: 0,0:05:08.88,0:05:13.63,Default,,0,0,0,,We must cooperate to take down the\Ntwo superior dragons who are our enemies.
-Dialogue: 0,0:05:13.92,0:05:15.58,Default,,0,0,0,,If we don't...
-Dialogue: 0,0:05:16.08,0:05:18.75,Default,,0,0,0,,We'll all die here together.
-Dialogue: 0,0:05:20.04,0:05:24.25,Default,,0,0,0,,So his name is Ragna!
-Dialogue: 0,0:05:24.25,0:05:25.79,Default,,0,0,0,,You'd like...
-Dialogue: 0,0:05:25.79,0:05:26.79,Default,,0,0,0,,to help?
-Dialogue: 0,0:05:26.79,0:05:28.50,Top,,0,0,0,,Princess...
-Dialogue: 0,0:05:26.79,0:05:28.50,Default,,0,0,0,,{\c&HFFFF&}Major, give us an explanation!\N{\c&HFFFFFF&}It's written all over her face!
-Dialogue: 0,0:05:28.50,0:05:30.50,Default,,0,0,0,,Don't talk all at once!\NI can't understand a thing you're saying!
-Dialogue: 0,0:05:30.50,0:05:33.67,Default,,0,0,0,,What should I do?\NHer Highness is losing it again!
-Dialogue: 0,0:05:40.00,0:05:42.42,Default,,0,0,0,,You want to... help?
-Dialogue: 0,0:05:43.54,0:05:47.25,Default,,0,0,0,,What sort of drivel is that, filth?
-Dialogue: 0,0:05:47.63,0:05:51.42,Default,,0,0,0,,You're a stain that just can't be scrubbed\Nfrom the toilet bowl of this world!
-Dialogue: 0,0:05:51.88,0:05:53.67,Default,,0,0,0,,It's impossible for us to cooperate.
-Dialogue: 0,0:05:53.67,0:05:55.29,Default,,0,0,0,,I know this.
-Dialogue: 0,0:05:55.88,0:05:58.33,Default,,0,0,0,,You don't play well with others.
-Dialogue: 0,0:05:58.33,0:06:00.79,Default,,0,0,0,,You merely use others and get them killed.
-Dialogue: 0,0:06:01.54,0:06:04.00,Default,,0,0,0,,This isn't your style, Commander.
-Dialogue: 0,0:06:05.17,0:06:07.08,Default,,0,0,0,,Just get straight to the point,\Nlike you usually do.
-Dialogue: 0,0:06:08.58,0:06:11.25,Default,,0,0,0,,Do we kill him? Or not?
-Dialogue: 0,0:06:11.96,0:06:13.13,Default,,0,0,0,,Hold on there.
-Dialogue: 0,0:06:13.54,0:06:15.63,Default,,0,0,0,,It's my job to kill him.
-Dialogue: 0,0:06:15.63,0:06:17.04,Default,,0,0,0,,We won't work with you!
-Dialogue: 0,0:06:17.04,0:06:18.54,Default,,0,0,0,,Go back to your cell!
-Dialogue: 0,0:06:18.54,0:06:20.42,Default,,0,0,0,,The next time I see your face, I'll kill you!
-Dialogue: 0,0:06:20.42,0:06:22.29,Default,,0,0,0,,Y-you too, over there!
-Dialogue: 0,0:06:22.29,0:06:24.50,Default,,0,0,0,,The Mad Maestro, Olto Zora.
-Dialogue: 0,0:06:26.50,0:06:28.79,Default,,0,0,0,,The Sixth Seat of the Blood of the Wing.
-Dialogue: 0,0:06:28.79,0:06:33.08,Default,,0,0,0,,His primary role is managing\Nand leading military matters.
-Dialogue: 0,0:06:33.42,0:06:36.33,Default,,0,0,0,,His power is Chemical Synthesis.
-Dialogue: 0,0:06:36.71,0:06:39.13,Default,,0,0,0,,He can make potent drugs\Nthat instantly kill living beings
-Dialogue: 0,0:06:39.13,0:06:41.38,Default,,0,0,0,,and drugs that hypnotize his targets.
-Dialogue: 0,0:06:41.38,0:06:45.04,Default,,0,0,0,,He can alter his blood to create\Na vast array of compounds
-Dialogue: 0,0:06:45.04,0:06:47.88,Default,,0,0,0,,and can spray them over\Na wide area as a mist.
-Dialogue: 0,0:06:48.21,0:06:51.58,Default,,0,0,0,,But these chemicals are instantly\Nrendered ineffective in sunlight,
-Dialogue: 0,0:06:51.58,0:06:53.88,Default,,0,0,0,,and silverine can stop them.
-Dialogue: 0,0:06:53.88,0:06:56.42,Default,,0,0,0,,Having that information should\Nallow you to combat against them.
-Dialogue: 0,0:06:56.42,0:07:00.29,Default,,0,0,0,,If anything, it's more of a nuisance\Nwhen he uses chemicals on his own forces.
-Dialogue: 0,0:07:00.63,0:07:04.71,Default,,0,0,0,,Thanks to the chemicals, his dragon army's\Npower will be multiplied several times over,
-Dialogue: 0,0:07:04.71,0:07:09.00,Default,,0,0,0,,and he'll have complete and utter control\Nover his hypnotized forces.
-Dialogue: 0,0:07:09.25,0:07:13.50,Default,,0,0,0,,Of course, since he's a superior dragon,\Nhis own power is tremendous.
-Dialogue: 0,0:07:13.71,0:07:15.83,Default,,0,0,0,,Where'd he get this intel?
-Dialogue: 0,0:07:15.83,0:07:19.25,Default,,0,0,0,,I've never heard such detailed information\Nabout superior dragons.
-Dialogue: 0,0:07:19.63,0:07:23.25,Default,,0,0,0,,What guarantee do we have\Nthat your information is true?
-Dialogue: 0,0:07:23.25,0:07:25.63,Default,,0,0,0,,If I was lying, you'd be able to tell,\Nwouldn't you?
-Dialogue: 0,0:07:25.63,0:07:27.58,Default,,0,0,0,,Your very existence is so fishy,
-Dialogue: 0,0:07:27.58,0:07:29.50,Default,,0,0,0,,I don't know if you're\Ntelling the truth or not!
-Dialogue: 0,0:07:29.50,0:07:31.46,Default,,0,0,0,,So it doesn't matter what I say?
-Dialogue: 0,0:07:31.46,0:07:32.46,Default,,0,0,0,,Such a windbag!
-Dialogue: 0,0:07:33.67,0:07:36.21,Default,,0,0,0,,Then let's tag in another player.
-Dialogue: 0,0:07:37.33,0:07:38.17,Default,,0,0,0,,Hwah!
-Dialogue: 0,0:07:38.42,0:07:39.42,Default,,0,0,0,,Hwah?
-Dialogue: 0,0:07:40.21,0:07:42.50,Default,,0,0,0,,Go on, persuade the Silverware Princess.
-Dialogue: 0,0:07:42.50,0:07:44.96,Default,,0,0,0,,There's no way I can do that!
-Dialogue: 0,0:07:44.96,0:07:46.46,Default,,0,0,0,,That's more up your alley.
-Dialogue: 0,0:07:46.46,0:07:48.92,Default,,0,0,0,,Me and that woman are totally incompatible.
-Dialogue: 0,0:07:48.92,0:07:49.83,Default,,0,0,0,,But...
-Dialogue: 0,0:07:49.83,0:07:50.92,Default,,0,0,0,,It'll be fine.
-Dialogue: 0,0:07:50.92,0:07:54.29,Default,,0,0,0,,You could probably spew utter garbage,\Nand her fondness for you would only grow.
-Dialogue: 0,0:07:54.29,0:07:55.71,Default,,0,0,0,,That can't be true.
-Dialogue: 0,0:07:56.21,0:07:57.88,Default,,0,0,0,,You've made up your mind, right?
-Dialogue: 0,0:07:57.88,0:07:59.58,Default,,0,0,0,,You're going to stay here and fight.
-Dialogue: 0,0:08:01.46,0:08:04.54,Default,,0,0,0,,Not long from now,\NI estimate that the number of dragons
-Dialogue: 0,0:08:04.54,0:08:07.17,Default,,0,0,0,,attacking this base will be\Nat least ten thousand.
-Dialogue: 0,0:08:07.63,0:08:10.88,Default,,0,0,0,,Nine thousand inferior dragons.\NA thousand medial dragons.
-Dialogue: 0,0:08:10.88,0:08:13.58,Default,,0,0,0,,About forty to fifty will be mature dragons.
-Dialogue: 0,0:08:13.88,0:08:18.04,Default,,0,0,0,,They also have a mobile front to\Ntransport them, the Writhing Shade.
-Dialogue: 0,0:08:18.46,0:08:21.75,Default,,0,0,0,,There's a high probability the\NThirteenth Seat has been mobilized too.
-Dialogue: 0,0:08:22.00,0:08:26.58,Default,,0,0,0,,Two superior dragons will lead them:\NOlto Zora and Taratectra.
-Dialogue: 0,0:08:26.58,0:08:28.96,Default,,0,0,0,,Their military force will be total overkill.
-Dialogue: 0,0:08:29.29,0:08:34.75,Default,,0,0,0,,There are 350 soldiers here, as well as\N1,500 civilians under their protection.
-Dialogue: 0,0:08:34.75,0:08:36.67,Default,,0,0,0,,None will survive.
-Dialogue: 0,0:08:37.13,0:08:41.33,Default,,0,0,0,,Were the Silverware Princess\Nand her comrades in your future?
-Dialogue: 0,0:08:43.04,0:08:44.75,Default,,0,0,0,,This is my proposal.
-Dialogue: 0,0:08:45.88,0:08:48.00,Default,,0,0,0,,If you promise to follow my orders
-Dialogue: 0,0:08:48.00,0:08:52.63,Default,,0,0,0,,and give up on Ultimatia for a short while\Nso we can escape the country,
-Dialogue: 0,0:08:52.63,0:08:55.21,Default,,0,0,0,,I'll use the full extent of my powers
-Dialogue: 0,0:08:55.21,0:08:58.25,Default,,0,0,0,,to make sure the humans at this base\Nescape the dragons.
-Dialogue: 0,0:08:58.71,0:09:02.79,Default,,0,0,0,,And when I say the full extent of my powers,\Nthat's including you.
-Dialogue: 0,0:09:03.92,0:09:07.33,Default,,0,0,0,,Break it off with me and go back\Nto the capital by yourself.
-Dialogue: 0,0:09:07.33,0:09:13.13,Default,,0,0,0,,Or stay and fight to protect the people here,\Nthen flee the country together.
-Dialogue: 0,0:09:13.13,0:09:14.75,Default,,0,0,0,,What will you decide?
-Dialogue: 0,0:09:16.92,0:09:18.29,Default,,0,0,0,,Miss Silverware Princess.
-Dialogue: 0,0:09:18.29,0:09:21.38,Default,,0,0,0,,Wh-wh-wh-what? I won't work with you!
-Dialogue: 0,0:09:21.38,0:09:24.67,Default,,0,0,0,,D-don't think that just because you're\Nkind of a looker that I'll listen to you!
-Dialogue: 0,0:09:24.67,0:09:26.25,Top,,0,0,0,,{\c&HFFFF&}Earlier...
-Dialogue: 0,0:09:24.67,0:09:26.25,Default,,0,0,0,,D-don't think that just because you're\Nkind of a looker that I'll listen to you!
-Dialogue: 0,0:09:26.63,0:09:31.21,Default,,0,0,0,,You called him a stain that just can't be\Nscrubbed from the toilet bowl of this world.
-Dialogue: 0,0:09:31.21,0:09:33.67,Default,,0,0,0,,That's actually very accurate, I think.
-Dialogue: 0,0:09:33.96,0:09:34.96,Default,,0,0,0,,What?
-Dialogue: 0,0:09:35.42,0:09:37.88,Default,,0,0,0,,He's a despicable person.
-Dialogue: 0,0:09:37.88,0:09:42.42,Default,,0,0,0,,He loves tormenting others\Nand gets kicks from it.
-Dialogue: 0,0:09:42.42,0:09:45.08,Default,,0,0,0,,Honestly, he's kind of a piece of shit.
-Dialogue: 0,0:09:45.42,0:09:46.92,Default,,0,0,0,,A piece of shit!
-Dialogue: 0,0:09:47.50,0:09:50.58,Default,,0,0,0,,I often wonder why a guy like him\Nwas even born.
-Dialogue: 0,0:09:50.58,0:09:53.88,Default,,0,0,0,,I always think about how everyone would be\Nbetter off if I could just kill him already.
-Dialogue: 0,0:09:53.88,0:09:57.38,Default,,0,0,0,,But the one thing you can trust about him\Nis his desire to kill dragons!
-Dialogue: 0,0:09:58.75,0:10:00.83,Default,,0,0,0,,That's why I joined forces with him.
-Dialogue: 0,0:10:01.17,0:10:06.67,Default,,0,0,0,,I decided that the two of us are going to\Nexterminate dragonkind together as a team!
-Dialogue: 0,0:10:07.67,0:10:10.96,Default,,0,0,0,,Exterminate... all the dragons?
-Dialogue: 0,0:10:11.63,0:10:13.96,Default,,0,0,0,,Hunting dragons is my forte!
-Dialogue: 0,0:10:13.96,0:10:15.67,Default,,0,0,0,,I'm better at it than\Nanyone else in the world!
-Dialogue: 0,0:10:16.17,0:10:18.29,Default,,0,0,0,,Use me, Silverware Princess!
-Dialogue: 0,0:10:18.29,0:10:20.04,Default,,0,0,0,,I promise I can help you!
-Dialogue: 0,0:10:25.00,0:10:27.63,Default,,0,0,0,,Huh? What's with that facial expression?
-Dialogue: 0,0:10:28.00,0:10:29.38,Default,,0,0,0,,Did I make her mad?
-Dialogue: 0,0:10:30.96,0:10:34.88,Default,,0,0,0,,The man she fell in love with at first sight\Nis ardently pleading her to use him.
-Dialogue: 0,0:10:34.88,0:10:38.46,Default,,0,0,0,,And she is just barely resisting\Nscreaming, "Yes!"
-Dialogue: 0,0:10:38.46,0:10:39.63,Default,,0,0,0,,However...
-Dialogue: 0,0:10:39.63,0:10:41.33,Default,,0,0,0,,You must not agree, Princess Lia!
-Dialogue: 0,0:10:41.33,0:10:43.50,Default,,0,0,0,,That man is undoubtably a pervert!
-Dialogue: 0,0:10:43.50,0:10:48.38,Default,,0,0,0,,He's the kind of degenerate who puts up\Nphotos of his crush all over his bedroom!
-Dialogue: 0,0:10:48.38,0:10:51.83,Default,,0,0,0,,I know he does! I can always\Nsniff out other freaks like me!
-Dialogue: 0,0:10:51.83,0:10:54.67,Default,,0,0,0,,I know for a fact he's depraved!
-Dialogue: 0,0:10:54.67,0:10:56.88,Default,,0,0,0,,But Ragna is her first love.
-Dialogue: 0,0:10:56.88,0:10:59.13,Default,,0,0,0,,She doesn't know how to act around him.
-Dialogue: 0,0:10:59.13,0:11:03.50,Default,,0,0,0,,And she can't allow herself to look like\Na pathetic simp in front of the corps.
-Dialogue: 0,0:11:03.50,0:11:05.21,Default,,0,0,0,,Thus, consequently...
-Dialogue: 0,0:11:05.54,0:11:09.00,Default,,0,0,0,,Very well. I accept your proposal.
-Dialogue: 0,0:11:09.46,0:11:10.83,Default,,0,0,0,,But do not be mistaken!
-Dialogue: 0,0:11:11.17,0:11:16.00,Default,,0,0,0,,I'm temporarily borrowing your power\Nfor strategic purposes and nothing more!
-Dialogue: 0,0:11:16.00,0:11:19.79,Default,,0,0,0,,I d-d-didn't make this decision because of\Nany personal feelings I have for you!
-Dialogue: 0,0:11:19.79,0:11:21.88,Default,,0,0,0,,Do not be mistaken!
-Dialogue: 0,0:11:22.58,0:11:25.58,Default,,0,0,0,,That was like a bad tsundere impression.
-Dialogue: 0,0:11:29.50,0:11:31.83,Default,,0,0,0,,What's so funny, filth!
-Dialogue: 0,0:11:32.42,0:11:33.83,Default,,0,0,0,,Sorry!
-Dialogue: 0,0:11:34.21,0:11:36.17,Default,,0,0,0,,That really tickled my funny bone!
-Dialogue: 0,0:11:36.83,0:11:38.29,Default,,0,0,0,,Nice play.
-Dialogue: 0,0:11:38.29,0:11:40.79,Default,,0,0,0,,I'm not a fan of being called\Na piece of shit,
-Dialogue: 0,0:11:40.79,0:11:43.54,Default,,0,0,0,,but I'll let it slide since the\NSilverware Princess had me in stitches.
-Dialogue: 0,0:11:43.54,0:11:45.54,Default,,0,0,0,,You told me to do it.
-Dialogue: 0,0:11:45.54,0:11:48.17,Default,,0,0,0,,I didn't tell you to call me a piece of shit.
-Dialogue: 0,0:11:48.38,0:11:50.42,Default,,0,0,0,,Is this a positive thing?
-Dialogue: 0,0:11:50.42,0:11:53.71,Default,,0,0,0,,Well, it's better than them\Nbeing outright hostile.
-Dialogue: 0,0:11:53.71,0:11:55.75,Default,,0,0,0,,But still... I just don't understand!
-Dialogue: 0,0:11:55.75,0:11:57.88,Default,,0,0,0,,Are you serious, Commander?
-Dialogue: 0,0:11:57.88,0:11:59.42,Default,,0,0,0,,I'm very serious!
-Dialogue: 0,0:11:59.42,0:12:00.83,Default,,0,0,0,,What about my fight with them?
-Dialogue: 0,0:12:00.83,0:12:02.38,Default,,0,0,0,,That will have to be postponed!
-Dialogue: 0,0:12:02.67,0:12:05.75,Default,,0,0,0,,A most excellent decision,\NSilverware Princess!
-Dialogue: 0,0:12:05.75,0:12:10.83,Default,,0,0,0,,We'll certainly pulverize those vile dragons\Nwith our combined forces.
-Dialogue: 0,0:12:10.83,0:12:15.63,Default,,0,0,0,,First, let's modify the plan\Nbased on my intel-
-Dialogue: 0,0:12:15.63,0:12:18.79,Default,,0,0,0,,You'll cough up the information\Nabout the dragons, and that's it.
-Dialogue: 0,0:12:18.79,0:12:20.88,Default,,0,0,0,,I will be the one doing the planning.
-Dialogue: 0,0:12:20.88,0:12:23.33,Default,,0,0,0,,That sure takes a load off my shoulders!
-Dialogue: 0,0:12:23.33,0:12:25.50,Default,,0,0,0,,Just please do make sure\Nyour plan has no holes.
-Dialogue: 0,0:12:25.50,0:12:27.83,Default,,0,0,0,,It'd be a pain for me to have to\Npatch them later.
-Dialogue: 0,0:12:27.83,0:12:28.92,Default,,0,0,0,,Hmph!
-Dialogue: 0,0:12:28.92,0:12:31.50,Default,,0,0,0,,Then riddle me this.
-Dialogue: 0,0:12:31.96,0:12:36.04,Default,,0,0,0,,A few hours ago, something about\Nthe dragons sieging us changed.
-Dialogue: 0,0:12:36.42,0:12:39.92,Default,,0,0,0,,If you know what happened to them, tell us.
-Dialogue: 0,0:12:39.92,0:12:41.33,Default,,0,0,0,,Ah, yes!
-Dialogue: 0,0:12:41.33,0:12:46.00,Default,,0,0,0,,That's because we fought against\Nthe Winged Monarch in the capital.
-Dialogue: 0,0:12:46.00,0:12:47.00,Default,,0,0,0,,What?
-Dialogue: 0,0:12:47.00,0:12:49.46,Default,,0,0,0,,They're probably going into a frenzy
-Dialogue: 0,0:12:49.46,0:12:52.75,Default,,0,0,0,,and rushing off to the capital\Nright about now.
-Dialogue: 0,0:13:00.04,0:13:04.00,Default,,0,0,0,,Why do we even keep you around,\Nyou senile old man!
-Dialogue: 0,0:13:05.88,0:13:08.33,Default,,0,0,0,,I have no excuse I can give you.
-Dialogue: 0,0:13:08.83,0:13:11.13,Default,,0,0,0,,Where is the progenitor now?
-Dialogue: 0,0:13:11.46,0:13:13.33,Default,,0,0,0,,The progenitor is...
-Dialogue: 0,0:13:17.79,0:13:19.50,Default,,0,0,0,,Why is this happening?
-Dialogue: 0,0:13:19.50,0:13:22.13,Default,,0,0,0,,So you've lost control of time, huh?
-Dialogue: 0,0:13:22.75,0:13:24.50,Default,,0,0,0,,I've said it before.
-Dialogue: 0,0:13:25.00,0:13:29.75,Default,,0,0,0,,Ultimate power that you get from\Nsomeone else is fickle.
-Dialogue: 0,0:13:32.21,0:13:33.92,Default,,0,0,0,,Why are you here?
-Dialogue: 0,0:13:34.29,0:13:38.29,Default,,0,0,0,,I told Nebulim not to let anyone enter!
-Dialogue: 0,0:13:38.29,0:13:40.42,Default,,0,0,0,,He let me waltz right in.
-Dialogue: 0,0:13:40.79,0:13:42.54,Default,,0,0,0,,That can't be true!
-Dialogue: 0,0:13:42.54,0:13:45.04,Default,,0,0,0,,You clearly must have threatened him\Nand forced your way in!
-Dialogue: 0,0:13:45.50,0:13:48.63,Default,,0,0,0,,Leave at once! I'm not in the mood\Nto chitchat with you n-
-Dialogue: 0,0:13:48.63,0:13:49.75,Default,,0,0,0,,Got you a souvenir.
-Dialogue: 0,0:13:49.75,0:13:52.13,Default,,0,0,0,,Wh-who is that?
-Dialogue: 0,0:13:52.13,0:13:56.58,Default,,0,0,0,,Hey, c'mon now. Did you actually forget\Nwhat you sent your errand boy to do?
-Dialogue: 0,0:13:56.58,0:13:59.50,Default,,0,0,0,,This is the person who killed Trois?
-Dialogue: 0,0:13:59.92,0:14:01.88,Default,,0,0,0,,Not convinced?
-Dialogue: 0,0:14:01.88,0:14:06.04,Default,,0,0,0,,You don't think a lowly hunter\Ncould've killed that dumb windbag, huh?
-Dialogue: 0,0:14:06.38,0:14:09.83,Default,,0,0,0,,Well, this guy was at the bottom of\Nthe barrel when it came to strength,
-Dialogue: 0,0:14:09.83,0:14:12.75,Default,,0,0,0,,but he had a good death.
-Dialogue: 0,0:14:14.21,0:14:17.63,Default,,0,0,0,,Guess what he said right before he croaked?
-Dialogue: 0,0:14:17.63,0:14:18.96,Default,,0,0,0,,I don't want to hear it!
-Dialogue: 0,0:14:19.42,0:14:21.71,Default,,0,0,0,,Finding amusement in the\Nlast words of someone
-Dialogue: 0,0:14:21.71,0:14:23.96,Default,,0,0,0,,who suffered while dying\Nis in such poor taste!
-Dialogue: 0,0:14:23.96,0:14:26.17,Default,,0,0,0,,If you say so.
-Dialogue: 0,0:14:26.17,0:14:29.79,Default,,0,0,0,,But to me, pretty much everyone else\Nin the world is insignificant trash.
-Dialogue: 0,0:14:29.79,0:14:32.96,Default,,0,0,0,,I haven't faced many opponents\Nwho wowed me.
-Dialogue: 0,0:14:33.25,0:14:36.38,Default,,0,0,0,,And what was this guy's attitude\Nwhen he looked death in the eyes?
-Dialogue: 0,0:14:36.38,0:14:39.54,Default,,0,0,0,,He was a weakling, yeah.\NBut he was a dragon hunter to the core.
-Dialogue: 0,0:14:42.50,0:14:44.88,Default,,0,0,0,,But if you ain't interested, so be it.
-Dialogue: 0,0:14:44.88,0:14:48.42,Default,,0,0,0,,I'll just keep his last words\Nbetween me and him.
-Dialogue: 0,0:14:51.00,0:14:52.75,Default,,0,0,0,,Then how 'bout this?
-Dialogue: 0,0:14:53.13,0:14:55.33,Default,,0,0,0,,One of the dragon hunters\NI dealt with had it.
-Dialogue: 0,0:14:58.04,0:15:00.71,Default,,0,0,0,,The craftsmanship is crude for a sword,
-Dialogue: 0,0:15:00.71,0:15:04.58,Default,,0,0,0,,but the amount of silverine infused in it\Nand its chilling power is bananas.
-Dialogue: 0,0:15:04.79,0:15:08.88,Default,,0,0,0,,Even I have to grip it with everything\NI've got or my hand gets numb.
-Dialogue: 0,0:15:09.25,0:15:12.58,Default,,0,0,0,,P-please get that thing away from me!
-Dialogue: 0,0:15:12.58,0:15:15.08,Default,,0,0,0,,Don't be all shook up by it. Look, see!
-Dialogue: 0,0:15:15.08,0:15:16.42,Default,,0,0,0,,St-stop it!
-Dialogue: 0,0:15:16.42,0:15:18.04,Default,,0,0,0,,No! Seriously!
-Dialogue: 0,0:15:18.04,0:15:20.96,Default,,0,0,0,,I said stop it!
-Dialogue: 0,0:15:28.21,0:15:30.33,Default,,0,0,0,,What are you playing at?
-Dialogue: 0,0:15:30.83,0:15:33.42,Default,,0,0,0,,You're holding it. The sword.
-Dialogue: 0,0:15:34.13,0:15:35.54,Default,,0,0,0,,It's cold!
-Dialogue: 0,0:15:35.54,0:15:39.04,Default,,0,0,0,,Want me to tell you why\Nyou can't control time anymore?
-Dialogue: 0,0:15:39.79,0:15:41.54,Default,,0,0,0,,You're probably thinking,
-Dialogue: 0,0:15:41.54,0:15:45.08,Default,,0,0,0,,"God is disappointed in my worthless,\Npathetic self," aren't ya?
-Dialogue: 0,0:15:45.33,0:15:48.71,Default,,0,0,0,,Don't worry.\NIt's nothing as dramatic as that.
-Dialogue: 0,0:15:49.13,0:15:52.08,Default,,0,0,0,,The reason you can't control time is simple.
-Dialogue: 0,0:15:53.08,0:15:55.21,Default,,0,0,0,,It's because you've lost in your heart.
-Dialogue: 0,0:15:55.50,0:15:56.71,Default,,0,0,0,,My heart?
-Dialogue: 0,0:15:56.71,0:16:00.33,Default,,0,0,0,,Magic is a means to change the world.
-Dialogue: 0,0:16:00.33,0:16:02.67,Default,,0,0,0,,You need three things to do that.
-Dialogue: 0,0:16:02.92,0:16:05.46,Default,,0,0,0,,You need the magical power\Nto create change.
-Dialogue: 0,0:16:05.46,0:16:08.25,Default,,0,0,0,,You need the process that gives\Ndirection to that change.
-Dialogue: 0,0:16:08.50,0:16:13.83,Default,,0,0,0,,And lastly, you need the confidence to control\Nthe change once it's been actualized.
-Dialogue: 0,0:16:13.83,0:16:16.79,Default,,0,0,0,,Y-you're saying it's a mental problem?
-Dialogue: 0,0:16:16.79,0:16:19.00,Default,,0,0,0,,I bet every time you use magic,
-Dialogue: 0,0:16:19.00,0:16:21.83,Default,,0,0,0,,the image of your enemy\Nsurges through your mind, right?
-Dialogue: 0,0:16:23.71,0:16:27.21,Default,,0,0,0,,That enemy could move even though\NI made the world fall still!
-Dialogue: 0,0:16:27.21,0:16:29.54,Default,,0,0,0,,Even though I did not give him\Npermission to move,
-Dialogue: 0,0:16:29.54,0:16:32.00,Default,,0,0,0,,he attacked me while time was stopped!
-Dialogue: 0,0:16:32.29,0:16:35.08,Default,,0,0,0,,I dunno why he didn't stop moving.
-Dialogue: 0,0:16:35.08,0:16:40.21,Default,,0,0,0,,But the reason everything else won't stop\Nis because you've lost in your heart.
-Dialogue: 0,0:16:41.33,0:16:43.71,Default,,0,0,0,,The Winged Monarch? What a laugh!
-Dialogue: 0,0:16:43.71,0:16:46.58,Default,,0,0,0,,Right now, your heart is too beaten down\Nto rule over anything.
-Dialogue: 0,0:16:46.58,0:16:48.17,Default,,0,0,0,,You're more like Traumatia now.
-Dialogue: 0,0:16:49.50,0:16:51.54,Default,,0,0,0,,Traumatia?
-Dialogue: 0,0:16:56.96,0:16:58.96,Default,,0,0,0,,What should I do?
-Dialogue: 0,0:16:59.67,0:17:02.75,Default,,0,0,0,,What do I need to do to use\NTime Control Magic again?
-Dialogue: 0,0:17:03.00,0:17:04.46,Default,,0,0,0,,That's a piece of cake.
-Dialogue: 0,0:17:04.46,0:17:06.29,Default,,0,0,0,,You gotta forget your fear.
-Dialogue: 0,0:17:07.25,0:17:08.67,Default,,0,0,0,,Take that sword.
-Dialogue: 0,0:17:09.04,0:17:10.63,Default,,0,0,0,,You were afraid of it at first,
-Dialogue: 0,0:17:10.63,0:17:12.92,Default,,0,0,0,,but then you grabbed it without faltering\Nand cut me down.
-Dialogue: 0,0:17:13.50,0:17:17.13,Default,,0,0,0,,For a second, you forgot your fear\Nbecause of the rage you felt towards me.
-Dialogue: 0,0:17:17.42,0:17:20.38,Default,,0,0,0,,Forget my fear...
-Dialogue: 0,0:17:20.75,0:17:22.75,Default,,0,0,0,,Forget my fear of the enemy...
-Dialogue: 0,0:17:25.17,0:17:27.13,Default,,0,0,0,,Don't act like it's so easy!
-Dialogue: 0,0:17:27.13,0:17:29.71,Default,,0,0,0,,If it was that straightforward,\NI wouldn't be struggling like this!
-Dialogue: 0,0:17:29.71,0:17:31.71,Default,,0,0,0,,Command me.
-Dialogue: 0,0:17:32.63,0:17:35.67,Default,,0,0,0,,Command me to obliterate\Nthe source of your fear,
-Dialogue: 0,0:17:35.67,0:17:37.92,Default,,0,0,0,,and your fear will be a thing of the past.
-Dialogue: 0,0:17:38.29,0:17:39.63,Default,,0,0,0,,Say it.
-Dialogue: 0,0:17:39.63,0:17:41.88,Default,,0,0,0,,What do you want me to do?
-Dialogue: 0,0:17:45.88,0:17:48.25,Default,,0,0,0,,No. I won't command you.
-Dialogue: 0,0:17:48.25,0:17:49.17,Default,,0,0,0,,What?
-Dialogue: 0,0:17:49.17,0:17:53.21,Default,,0,0,0,,Losing my Time Control Magic is simply\Nmy own personal failure.
-Dialogue: 0,0:17:53.21,0:17:58.13,Default,,0,0,0,,I can't use you, my greatest weapon,\Nto get my power back.
-Dialogue: 0,0:17:58.58,0:18:00.96,Default,,0,0,0,,Right now, the top priority is\Nto annihilate this country
-Dialogue: 0,0:18:00.96,0:18:05.54,Default,,0,0,0,,so the world can be shaped as God desires.
-Dialogue: 0,0:18:05.92,0:18:09.50,Default,,0,0,0,,That is my sole duty as\Nthe Winged Progenitor.
-Dialogue: 0,0:18:09.50,0:18:12.46,Default,,0,0,0,,Well, I didn't want the answer\NI should use to ace the test.
-Dialogue: 0,0:18:12.46,0:18:14.46,Default,,0,0,0,,Tell me what you really want.\NWhat you truly desire.
-Dialogue: 0,0:18:14.46,0:18:15.79,Default,,0,0,0,,What?
-Dialogue: 0,0:18:15.79,0:18:19.04,Default,,0,0,0,,What you really want me to do is...
-Dialogue: 0,0:18:19.04,0:18:20.50,Default,,0,0,0,,get revenge, right?
-Dialogue: 0,0:18:26.29,0:18:29.21,Default,,0,0,0,,Then how 'bout I tell you\Nwhat I really want first?
-Dialogue: 0,0:18:29.21,0:18:34.46,Default,,0,0,0,,It enrages me that some bastard\Ntried to kill my woman while I was gone.
-Dialogue: 0,0:18:38.13,0:18:40.63,Default,,0,0,0,,Since when did I become your woman!
-Dialogue: 0,0:18:41.67,0:18:47.63,Default,,0,0,0,,How long will you insist on clowning around\Nand making a fool of me!
-Dialogue: 0,0:18:47.63,0:18:52.96,Default,,0,0,0,,If you don't intend on listening to me,\Ngo ahead and fight! That's fine by me!
-Dialogue: 0,0:18:52.96,0:18:56.17,Default,,0,0,0,,I want to fight because you ordered me to.
-Dialogue: 0,0:18:56.46,0:18:59.17,Default,,0,0,0,,I'm not gonna bow and scrape\Nbecause you're the progenitor
-Dialogue: 0,0:18:59.17,0:19:01.38,Default,,0,0,0,,or worship you like some saint.
-Dialogue: 0,0:19:01.38,0:19:05.00,Default,,0,0,0,,To me, you're just an unhinged woman.
-Dialogue: 0,0:19:05.00,0:19:06.00,Default,,0,0,0,,An unhin-?
-Dialogue: 0,0:19:06.00,0:19:09.08,Default,,0,0,0,,And I'm following this unhinged woman\Nof my own volition.
-Dialogue: 0,0:19:09.08,0:19:11.21,Default,,0,0,0,,I don't give a rat's ass about God,\Nor allegiance to our blood,
-Dialogue: 0,0:19:11.21,0:19:12.75,Default,,0,0,0,,or any of that garbage.
-Dialogue: 0,0:19:15.25,0:19:19.54,Default,,0,0,0,,So you can act however you want around me.
-Dialogue: 0,0:19:20.04,0:19:21.96,Default,,0,0,0,,You can piss and moan about your problems.
-Dialogue: 0,0:19:21.96,0:19:23.96,Default,,0,0,0,,You can blow your top and bawl your eyes out.
-Dialogue: 0,0:19:23.96,0:19:26.25,Default,,0,0,0,,You can be selfish like a child.
-Dialogue: 0,0:19:26.25,0:19:30.54,Default,,0,0,0,,For you, I can take it all.\NI'll always be by your side.
-Dialogue: 0,0:19:30.88,0:19:34.75,Default,,0,0,0,,Th-there's no way\NI can allow that for myself.
-Dialogue: 0,0:19:34.75,0:19:37.88,Default,,0,0,0,,I have a duty to my God and bloodline.
-Dialogue: 0,0:19:37.88,0:19:42.00,Default,,0,0,0,,And above all, I have a duty to the\Nimmense number of people we've killed.
-Dialogue: 0,0:19:42.00,0:19:43.33,Default,,0,0,0,,My personal desires-
-Dialogue: 0,0:19:43.33,0:19:46.54,Default,,0,0,0,,And I don't doubt that those are\Nyour true feelings.
-Dialogue: 0,0:19:46.88,0:19:49.75,Default,,0,0,0,,But that's not what I'm trying to ask you.
-Dialogue: 0,0:19:50.50,0:19:51.92,Default,,0,0,0,,Say it.
-Dialogue: 0,0:19:51.92,0:19:53.96,Default,,0,0,0,,Tell me what you want me to do.
-Dialogue: 0,0:19:59.33,0:20:01.83,Default,,0,0,0,,Bring... me...
-Dialogue: 0,0:20:03.29,0:20:04.92,Default,,0,0,0,,their heads.
-Dialogue: 0,0:20:08.79,0:20:10.71,Default,,0,0,0,,I actually said it.
-Dialogue: 0,0:20:11.33,0:20:13.58,Default,,0,0,0,,Everything is their fault.
-Dialogue: 0,0:20:13.58,0:20:15.79,Default,,0,0,0,,If it wasn't for them...
-Dialogue: 0,0:20:15.79,0:20:17.08,Default,,0,0,0,,I'm sick of it...
-Dialogue: 0,0:20:17.08,0:20:19.33,Default,,0,0,0,,I'm sick of it! I'm so sick of it!
-Dialogue: 0,0:20:19.33,0:20:21.71,Default,,0,0,0,,I cannot bear it any longer!
-Dialogue: 0,0:20:21.71,0:20:26.21,Default,,0,0,0,,Why is it that we're the only ones who suffer\Nwhile they get to continue living?
-Dialogue: 0,0:20:26.21,0:20:29.33,Default,,0,0,0,,It's simply not fair!
-Dialogue: 0,0:20:29.88,0:20:32.13,Default,,0,0,0,,This is an order, Woltekamui!
-Dialogue: 0,0:20:32.13,0:20:33.88,Default,,0,0,0,,Kill them!
-Dialogue: 0,0:20:34.42,0:20:38.29,Default,,0,0,0,,Use the full extent of your\Nphenomenal fighting prowess!
-Dialogue: 0,0:20:38.63,0:20:43.92,Default,,0,0,0,,Rip off their heads and bring them to me!
-Dialogue: 0,0:20:47.42,0:20:49.42,Default,,0,0,0,,Attagirl.
-Dialogue: 0,0:20:49.42,0:20:50.83,Default,,0,0,0,,Leave it to me.
-Dialogue: 0,0:20:51.04,0:20:53.88,Default,,0,0,0,,Your wish is my command.
-Dialogue: 0,0:21:00.46,0:21:01.38,Default,,0,0,0,,Tia!
-Dialogue: 0,0:21:01.38,0:21:03.04,Default,,0,0,0,,Lady Ultimatia!
-Dialogue: 0,0:21:05.75,0:21:07.50,Default,,0,0,0,,I'm sorry, Tia!
-Dialogue: 0,0:21:07.50,0:21:09.71,Default,,0,0,0,,I wasn't there when you really needed me.
-Dialogue: 0,0:21:09.71,0:21:12.88,Default,,0,0,0,,No, I'm sorry for making you worry!
-Dialogue: 0,0:21:12.88,0:21:15.29,Default,,0,0,0,,I'm okay now.
-Dialogue: 0,0:21:15.71,0:21:17.79,Default,,0,0,0,,Oh, that's right! Nebulim!
-Dialogue: 0,0:21:18.29,0:21:20.25,Default,,0,0,0,,Are you all right?
-Dialogue: 0,0:21:20.25,0:21:24.42,Default,,0,0,0,,This oaf threatened you into letting him\Ninto my chamber, didn't he?
-Dialogue: 0,0:21:24.42,0:21:28.29,Default,,0,0,0,,The kiddo said it was totally cool\Nfor me to go in. Right?
-Dialogue: 0,0:21:28.29,0:21:29.67,Default,,0,0,0,,{\c&HFFFF&}You liar!\N{\c&HFFFFFF&}It is true, Lady Ultimatia.
-Dialogue: 0,0:21:29.67,0:21:31.50,Default,,0,0,0,,{\c&HFFFF&}Nebulim would never disobey my orders.\N{\c&HFFFFFF&}It is true, Lady Ultimatia.
-Dialogue: 0,0:21:31.50,0:21:33.75,Default,,0,0,0,,{\c&HFFFF&}Nebulim would never disobey my orders.\N{\c&HFFFFFF&}I let Kamui walk right in.
-Dialogue: 0,0:21:33.75,0:21:34.21,Default,,0,0,0,,{\c&HFFFF&}He's a good boy, unlike you.
-Dialogue: 0,0:21:34.21,0:21:36.13,Default,,0,0,0,,{\c&HFFFF&}He's a good boy, unlike you.\N{\c&HFFFFFF&}Given the state you were in,
-Dialogue: 0,0:21:36.13,0:21:39.21,Top,,0,0,0,,{\c&HFFFF&}You shouldn't set such high expectations\N{\c&HFFFF&}for kiddos, ya know?
-Dialogue: 0,0:21:36.13,0:21:39.21,Default,,0,0,0,,I knew only Kamui's words\Nwould get through to you.
-Dialogue: 0,0:21:39.21,0:21:42.63,Top,,0,0,0,,{\c&HFFFF&}You have some nerve trying to admonish me!
-Dialogue: 0,0:21:39.21,0:21:42.63,Default,,0,0,0,,What can I do to get closer to\NLady Ultimatia's heart?
-Dialogue: 0,0:21:42.63,0:21:43.42,Default,,0,0,0,,What can I do to get closer to\NLady Ultimatia's heart?
-Dialogue: 0,0:21:44.29,0:21:46.38,Default,,0,0,0,,As close as he is to her...
-Dialogue: 0,0:21:50.38,0:21:52.33,Default,,0,0,0,,What was that? Huh?
-Dialogue: 0,0:21:52.58,0:21:54.08,Default,,0,0,0,,The Reaper...
-Dialogue: 0,0:21:54.75,0:21:56.46,Default,,0,0,0,,will...
-Dialogue: 0,0:21:57.33,0:21:58.96,Default,,0,0,0,,hunt you!
-Dialogue: 0,0:21:59.75,0:22:02.38,Default,,0,0,0,,That guy really got my hopes up.
-Dialogue: 0,0:22:02.38,0:22:05.17,Default,,0,0,0,,When was the last time I felt\Nthis pumped to fight someone?
-Dialogue: 0,0:22:05.17,0:22:06.96,Default,,0,0,0,,And an opponent I've never even seen!
-Dialogue: 0,0:22:06.96,0:22:10.79,Default,,0,0,0,,When we finally face down, let's have a fight\Nto the death that'll go down in history!
-Dialogue: 0,0:22:11.13,0:22:14.92,Default,,0,0,0,,Whaddaya think, Reaper?
+Dialogue: 0,0:00:05.25,0:00:07.50,Default,,0,0,0,,Christopher, Shin. Make your report.
+Dialogue: 0,0:00:07.50,0:00:08.87,Default,,0,0,0,,Yes, ma'am.
+Dialogue: 0,0:00:08.87,0:00:10.25,Default,,0,0,0,,You've got it.
+Dialogue: 0,0:00:10.79,0:00:14.12,Default,,0,0,0,,But, well, it's exactly as you said.
+Dialogue: 0,0:00:14.91,0:00:17.20,Default,,0,0,0,,The dragons are behaving strangely.
+Dialogue: 0,0:00:18.04,0:00:22.25,Default,,0,0,0,,There was no activity\Nuntil this morning, but, well...
+Dialogue: 0,0:00:22.70,0:00:24.66,Default,,0,0,0,,They don't seem to be out for blood.
+Dialogue: 0,0:00:25.20,0:00:27.66,Default,,0,0,0,,We got fairly close to them,
+Dialogue: 0,0:00:27.66,0:00:32.50,Default,,0,0,0,,but there was no indication they'd\Nimmediately attack if a signal was given.
+Dialogue: 0,0:00:32.83,0:00:35.08,Default,,0,0,0,,We thought the same thing!
+Dialogue: 0,0:00:35.08,0:00:37.66,Default,,0,0,0,,It's like they're preoccupied.
+Dialogue: 0,0:00:37.66,0:00:39.45,Default,,0,0,0,,It was like a funeral!
+Dialogue: 0,0:00:39.70,0:00:42.08,Default,,0,0,0,,What's wrong with the superior dragons?
+Dialogue: 0,0:00:42.08,0:00:44.20,Default,,0,0,0,,In all likelihood, they're somewhere else.
+Dialogue: 0,0:00:44.58,0:00:49.12,Default,,0,0,0,,Actually, there's no definite proof\Nthat filth was telling the truth.
+Dialogue: 0,0:00:49.95,0:00:52.04,Default,,0,0,0,,I'm not sure why they're acting this way,\Nbut this is a good opportunity.
+Dialogue: 0,0:00:52.37,0:00:53.66,Default,,0,0,0,,A good opportunity?
+Dialogue: 0,0:00:53.91,0:00:58.25,Default,,0,0,0,,The dragons certainly do not want\Nto let us off the hook.
+Dialogue: 0,0:00:58.25,0:01:01.54,Default,,0,0,0,,If that was the case,\Nthey would have raised their siege.
+Dialogue: 0,0:01:01.54,0:01:02.58,Default,,0,0,0,,Uh-huh.
+Dialogue: 0,0:01:02.100,0:01:06.37,Default,,0,0,0,,Some issue must have cropped up\Nfor the superior dragons
+Dialogue: 0,0:01:06.37,0:01:08.54,Default,,0,0,0,,that temporarily takes priority over us.
+Dialogue: 0,0:01:08.54,0:01:10.04,Default,,0,0,0,,This is what I must assume.
+Dialogue: 0,0:01:10.62,0:01:13.75,Default,,0,0,0,,It's utterly insulting.\NBut it's an insult to be thankful for.
+Dialogue: 0,0:01:14.12,0:01:14.91,Default,,0,0,0,,Majorca.
+Dialogue: 0,0:01:14.91,0:01:15.79,Default,,0,0,0,,Yes, ma'am!
+Dialogue: 0,0:01:15.79,0:01:18.12,Top,,0,0,0,,How much longer will the\Nteleportation circle take to prepare?
+Dialogue: 0,0:01:15.95,0:01:21.54,Caption,,0,0,0,,{\an7\pos(268.8,280.8)\fs21\fnTimes New Roman}Thaumaturge\NMajorca Abbott
+Dialogue: 0,0:01:18.12,0:01:19.33,Top,,0,0,0,,Ah! Yes, Your Highness!
+Dialogue: 0,0:01:19.33,0:01:21.70,Top,,0,0,0,,Um, Fu said it'll take one day\Nif we work ourselves to death,
+Dialogue: 0,0:01:21.70,0:01:25.95,Default,,0,0,0,,so it'll take two days to complete,\NYour Highness!
+Dialogue: 0,0:01:25.95,0:01:28.20,Default,,0,0,0,,Princess Lia addressed me! With words!
+Dialogue: 0,0:01:28.20,0:01:32.45,Top,,0,0,0,,{\c&HFFFF&}Tell Fu to get it done in one day\Nwithout anyone dying.
+Dialogue: 0,0:01:28.21,0:01:32.45,Default,,0,0,0,,Being this close to the princess and breathing\Nthe same air as her fills me with ecstasy!
+Dialogue: 0,0:01:33.37,0:01:35.62,Default,,0,0,0,,Our country has already lost.
+Dialogue: 0,0:01:36.08,0:01:39.41,Default,,0,0,0,,On the first night, five cities\Nand the capital fell.
+Dialogue: 0,0:01:39.41,0:01:43.04,Default,,0,0,0,,I cannot fathom just how many citizens\Nhave been devoured by dragons.
+Dialogue: 0,0:01:43.29,0:01:45.70,Default,,0,0,0,,The only thing we can do is flee the country
+Dialogue: 0,0:01:45.70,0:01:50.16,Default,,0,0,0,,with only the fifteen hundred citizens\Nwe've gathered here.
+Dialogue: 0,0:01:50.16,0:01:52.37,Default,,0,0,0,,It is entirely disgraceful.
+Dialogue: 0,0:01:52.79,0:01:54.37,Default,,0,0,0,,But we shall escape!
+Dialogue: 0,0:01:54.37,0:01:58.87,Default,,0,0,0,,We'll show those loathsome dragons\Nthey can't always have their way with us!
+Dialogue: 0,0:01:59.20,0:02:00.25,Default,,0,0,0,,We will survive!
+Dialogue: 0,0:02:00.54,0:02:03.50,Default,,0,0,0,,Our people, the corps,\Nand every single one of you!
+Dialogue: 0,0:02:03.50,0:02:05.16,Default,,0,0,0,,That was fantastic!
+Dialogue: 0,0:02:05.16,0:02:07.66,Default,,0,0,0,,I expected nothing less from\Nthe renowned Silverware Princess.
+Dialogue: 0,0:02:07.66,0:02:10.37,Default,,0,0,0,,Even your excuses for turning tail\Nwere dripping with charisma.
+Dialogue: 0,0:02:11.33,0:02:13.25,Default,,0,0,0,,Just who the hell are you?
+Dialogue: 0,0:02:13.25,0:02:14.70,Default,,0,0,0,,Knock it off, you two!
+Dialogue: 0,0:02:14.70,0:02:16.54,Default,,0,0,0,,So you decided to make an appearance, filth.
+Dialogue: 0,0:02:16.54,0:02:20.70,Default,,0,0,0,,I was going to pretend\NI never saw you for a while,
+Dialogue: 0,0:02:20.70,0:02:23.08,Default,,0,0,0,,but you just had to show up!
+Dialogue: 0,0:02:24.66,0:02:27.58,Default,,0,0,0,,You bastard! What did you do\Nto the commander?
+Dialogue: 0,0:02:27.58,0:02:30.29,Default,,0,0,0,,Hold up, hold up!\NWe already discussed this!
+Dialogue: 0,0:04:01.41,0:04:07.37,Caption,,0,0,0,,{\an7\pos(358.4,298.8)\fs17\fnTimes New Roman}Episode 10: Stakes and Cooperation
+Dialogue: 0,0:04:03.37,0:04:06.54,Default,,0,0,0,,I told you to behave yourselves!
+Dialogue: 0,0:04:06.54,0:04:10.41,Default,,0,0,0,,This guy doesn't feel strong in the slightest!
+Dialogue: 0,0:04:10.70,0:04:14.70,Default,,0,0,0,,Hey, Hesela. Do you think\None of those two might be him?
+Dialogue: 0,0:04:14.70,0:04:17.75,Default,,0,0,0,,Totally, Greya! It must be one of them!
+Dialogue: 0,0:04:18.20,0:04:20.75,Default,,0,0,0,,This is an incredibly skilled group.
+Dialogue: 0,0:04:20.75,0:04:23.37,Default,,0,0,0,,There are even people who are\Nstronger than Leo here.
+Dialogue: 0,0:04:23.37,0:04:24.20,Default,,0,0,0,,But...
+Dialogue: 0,0:04:24.20,0:04:25.100,Default,,0,0,0,,What happened to the guards?
+Dialogue: 0,0:04:25.100,0:04:29.83,Default,,0,0,0,,I asked them to let us through,\Nand they very kindly obliged.
+Dialogue: 0,0:04:29.83,0:04:30.75,Default,,0,0,0,,What?
+Dialogue: 0,0:04:31.08,0:04:34.20,Default,,0,0,0,,We'd like to lend you a hand\Nin your escape plan.
+Dialogue: 0,0:04:35.04,0:04:37.37,Default,,0,0,0,,I got the gist of your plan.
+Dialogue: 0,0:04:37.37,0:04:39.66,Default,,0,0,0,,You want to use dragon's blood\Nas a magical energy source
+Dialogue: 0,0:04:39.66,0:04:41.54,Default,,0,0,0,,and teleport out of the country.
+Dialogue: 0,0:04:41.54,0:04:42.66,Default,,0,0,0,,Am I correct?
+Dialogue: 0,0:04:43.20,0:04:45.25,Default,,0,0,0,,I think that's a solid plan.
+Dialogue: 0,0:04:45.25,0:04:47.41,Default,,0,0,0,,But it won't be successful.
+Dialogue: 0,0:04:47.41,0:04:48.87,Default,,0,0,0,,The reason is simple.
+Dialogue: 0,0:04:48.87,0:04:51.25,Default,,0,0,0,,The difference in military power between\Nyou and your adversary is too great.
+Dialogue: 0,0:04:51.25,0:04:54.41,Default,,0,0,0,,If you allow us to work together with you,
+Dialogue: 0,0:04:54.41,0:04:56.50,Default,,0,0,0,,I will give you detailed intel\Nabout the enemy.
+Dialogue: 0,0:04:56.50,0:04:58.16,Default,,0,0,0,,Better yet,
+Dialogue: 0,0:04:58.16,0:05:01.41,Default,,0,0,0,,I can provide you a superweapon capable of\Nslaying superior dragons unassisted.
+Dialogue: 0,0:05:01.70,0:05:03.33,Default,,0,0,0,,Ragna the Reaper.
+Dialogue: 0,0:05:03.91,0:05:08.66,Default,,0,0,0,,We must cooperate to take down the\Ntwo superior dragons who are our enemies.
+Dialogue: 0,0:05:08.95,0:05:10.62,Default,,0,0,0,,If we don't...
+Dialogue: 0,0:05:11.12,0:05:13.79,Default,,0,0,0,,We'll all die here together.
+Dialogue: 0,0:05:15.08,0:05:19.29,Default,,0,0,0,,So his name is Ragna!
+Dialogue: 0,0:05:19.29,0:05:20.83,Default,,0,0,0,,You'd like...
+Dialogue: 0,0:05:20.83,0:05:21.83,Default,,0,0,0,,to help?
+Dialogue: 0,0:05:21.83,0:05:23.54,Top,,0,0,0,,Princess...
+Dialogue: 0,0:05:21.83,0:05:23.54,Default,,0,0,0,,{\c&HFFFF&}Major, give us an explanation!\N{\c&HFFFFFF&}It's written all over her face!
+Dialogue: 0,0:05:23.54,0:05:25.54,Default,,0,0,0,,Don't talk all at once!\NI can't understand a thing you're saying!
+Dialogue: 0,0:05:25.54,0:05:28.70,Default,,0,0,0,,What should I do?\NHer Highness is losing it again!
+Dialogue: 0,0:05:35.04,0:05:37.45,Default,,0,0,0,,You want to... help?
+Dialogue: 0,0:05:38.58,0:05:42.29,Default,,0,0,0,,What sort of drivel is that, filth?
+Dialogue: 0,0:05:42.66,0:05:46.45,Default,,0,0,0,,You're a stain that just can't be scrubbed\Nfrom the toilet bowl of this world!
+Dialogue: 0,0:05:46.91,0:05:48.70,Default,,0,0,0,,It's impossible for us to cooperate.
+Dialogue: 0,0:05:48.70,0:05:50.33,Default,,0,0,0,,I know this.
+Dialogue: 0,0:05:50.91,0:05:53.37,Default,,0,0,0,,You don't play well with others.
+Dialogue: 0,0:05:53.37,0:05:55.83,Default,,0,0,0,,You merely use others and get them killed.
+Dialogue: 0,0:05:56.58,0:05:59.04,Default,,0,0,0,,This isn't your style, Commander.
+Dialogue: 0,0:06:00.20,0:06:02.12,Default,,0,0,0,,Just get straight to the point,\Nlike you usually do.
+Dialogue: 0,0:06:03.62,0:06:06.29,Default,,0,0,0,,Do we kill him? Or not?
+Dialogue: 0,0:06:06.100,0:06:08.16,Default,,0,0,0,,Hold on there.
+Dialogue: 0,0:06:08.58,0:06:10.66,Default,,0,0,0,,It's my job to kill him.
+Dialogue: 0,0:06:10.66,0:06:12.08,Default,,0,0,0,,We won't work with you!
+Dialogue: 0,0:06:12.08,0:06:13.58,Default,,0,0,0,,Go back to your cell!
+Dialogue: 0,0:06:13.58,0:06:15.45,Default,,0,0,0,,The next time I see your face, I'll kill you!
+Dialogue: 0,0:06:15.45,0:06:17.33,Default,,0,0,0,,Y-you too, over there!
+Dialogue: 0,0:06:17.33,0:06:19.54,Default,,0,0,0,,The Mad Maestro, Olto Zora.
+Dialogue: 0,0:06:21.54,0:06:23.83,Default,,0,0,0,,The Sixth Seat of the Blood of the Wing.
+Dialogue: 0,0:06:23.83,0:06:28.12,Default,,0,0,0,,His primary role is managing\Nand leading military matters.
+Dialogue: 0,0:06:28.45,0:06:31.37,Default,,0,0,0,,His power is Chemical Synthesis.
+Dialogue: 0,0:06:31.75,0:06:34.16,Default,,0,0,0,,He can make potent drugs\Nthat instantly kill living beings
+Dialogue: 0,0:06:34.16,0:06:36.41,Default,,0,0,0,,and drugs that hypnotize his targets.
+Dialogue: 0,0:06:36.41,0:06:40.08,Default,,0,0,0,,He can alter his blood to create\Na vast array of compounds
+Dialogue: 0,0:06:40.08,0:06:42.91,Default,,0,0,0,,and can spray them over\Na wide area as a mist.
+Dialogue: 0,0:06:43.25,0:06:46.62,Default,,0,0,0,,But these chemicals are instantly\Nrendered ineffective in sunlight,
+Dialogue: 0,0:06:46.62,0:06:48.91,Default,,0,0,0,,and silverine can stop them.
+Dialogue: 0,0:06:48.91,0:06:51.45,Default,,0,0,0,,Having that information should\Nallow you to combat against them.
+Dialogue: 0,0:06:51.45,0:06:55.33,Default,,0,0,0,,If anything, it's more of a nuisance\Nwhen he uses chemicals on his own forces.
+Dialogue: 0,0:06:55.66,0:06:59.75,Default,,0,0,0,,Thanks to the chemicals, his dragon army's\Npower will be multiplied several times over,
+Dialogue: 0,0:06:59.75,0:07:04.04,Default,,0,0,0,,and he'll have complete and utter control\Nover his hypnotized forces.
+Dialogue: 0,0:07:04.29,0:07:08.54,Default,,0,0,0,,Of course, since he's a superior dragon,\Nhis own power is tremendous.
+Dialogue: 0,0:07:08.75,0:07:10.87,Default,,0,0,0,,Where'd he get this intel?
+Dialogue: 0,0:07:10.87,0:07:14.29,Default,,0,0,0,,I've never heard such detailed information\Nabout superior dragons.
+Dialogue: 0,0:07:14.66,0:07:18.29,Default,,0,0,0,,What guarantee do we have\Nthat your information is true?
+Dialogue: 0,0:07:18.29,0:07:20.66,Default,,0,0,0,,If I was lying, you'd be able to tell,\Nwouldn't you?
+Dialogue: 0,0:07:20.66,0:07:22.62,Default,,0,0,0,,Your very existence is so fishy,
+Dialogue: 0,0:07:22.62,0:07:24.54,Default,,0,0,0,,I don't know if you're\Ntelling the truth or not!
+Dialogue: 0,0:07:24.54,0:07:26.50,Default,,0,0,0,,So it doesn't matter what I say?
+Dialogue: 0,0:07:26.50,0:07:27.50,Default,,0,0,0,,Such a windbag!
+Dialogue: 0,0:07:28.70,0:07:31.25,Default,,0,0,0,,Then let's tag in another player.
+Dialogue: 0,0:07:32.37,0:07:33.20,Default,,0,0,0,,Hwah!
+Dialogue: 0,0:07:33.45,0:07:34.45,Default,,0,0,0,,Hwah?
+Dialogue: 0,0:07:35.25,0:07:37.54,Default,,0,0,0,,Go on, persuade the Silverware Princess.
+Dialogue: 0,0:07:37.54,0:07:39.100,Default,,0,0,0,,There's no way I can do that!
+Dialogue: 0,0:07:39.100,0:07:41.50,Default,,0,0,0,,That's more up your alley.
+Dialogue: 0,0:07:41.50,0:07:43.95,Default,,0,0,0,,Me and that woman are totally incompatible.
+Dialogue: 0,0:07:43.95,0:07:44.87,Default,,0,0,0,,But...
+Dialogue: 0,0:07:44.87,0:07:45.95,Default,,0,0,0,,It'll be fine.
+Dialogue: 0,0:07:45.95,0:07:49.33,Default,,0,0,0,,You could probably spew utter garbage,\Nand her fondness for you would only grow.
+Dialogue: 0,0:07:49.33,0:07:50.75,Default,,0,0,0,,That can't be true.
+Dialogue: 0,0:07:51.25,0:07:52.91,Default,,0,0,0,,You've made up your mind, right?
+Dialogue: 0,0:07:52.91,0:07:54.62,Default,,0,0,0,,You're going to stay here and fight.
+Dialogue: 0,0:07:56.50,0:07:59.58,Default,,0,0,0,,Not long from now,\NI estimate that the number of dragons
+Dialogue: 0,0:07:59.58,0:08:02.20,Default,,0,0,0,,attacking this base will be\Nat least ten thousand.
+Dialogue: 0,0:08:02.66,0:08:05.91,Default,,0,0,0,,Nine thousand inferior dragons.\NA thousand medial dragons.
+Dialogue: 0,0:08:05.91,0:08:08.62,Default,,0,0,0,,About forty to fifty will be mature dragons.
+Dialogue: 0,0:08:08.91,0:08:13.08,Default,,0,0,0,,They also have a mobile front to\Ntransport them, the Writhing Shade.
+Dialogue: 0,0:08:13.50,0:08:16.79,Default,,0,0,0,,There's a high probability the\NThirteenth Seat has been mobilized too.
+Dialogue: 0,0:08:17.04,0:08:21.62,Default,,0,0,0,,Two superior dragons will lead them:\NOlto Zora and Taratectra.
+Dialogue: 0,0:08:21.62,0:08:23.100,Default,,0,0,0,,Their military force will be total overkill.
+Dialogue: 0,0:08:24.33,0:08:29.79,Default,,0,0,0,,There are 350 soldiers here, as well as\N1,500 civilians under their protection.
+Dialogue: 0,0:08:29.79,0:08:31.70,Default,,0,0,0,,None will survive.
+Dialogue: 0,0:08:32.16,0:08:36.37,Default,,0,0,0,,Were the Silverware Princess\Nand her comrades in your future?
+Dialogue: 0,0:08:38.08,0:08:39.79,Default,,0,0,0,,This is my proposal.
+Dialogue: 0,0:08:40.91,0:08:43.04,Default,,0,0,0,,If you promise to follow my orders
+Dialogue: 0,0:08:43.04,0:08:47.66,Default,,0,0,0,,and give up on Ultimatia for a short while\Nso we can escape the country,
+Dialogue: 0,0:08:47.66,0:08:50.25,Default,,0,0,0,,I'll use the full extent of my powers
+Dialogue: 0,0:08:50.25,0:08:53.29,Default,,0,0,0,,to make sure the humans at this base\Nescape the dragons.
+Dialogue: 0,0:08:53.75,0:08:57.83,Default,,0,0,0,,And when I say the full extent of my powers,\Nthat's including you.
+Dialogue: 0,0:08:58.95,0:09:02.37,Default,,0,0,0,,Break it off with me and go back\Nto the capital by yourself.
+Dialogue: 0,0:09:02.37,0:09:08.16,Default,,0,0,0,,Or stay and fight to protect the people here,\Nthen flee the country together.
+Dialogue: 0,0:09:08.16,0:09:09.79,Default,,0,0,0,,What will you decide?
+Dialogue: 0,0:09:11.95,0:09:13.33,Default,,0,0,0,,Miss Silverware Princess.
+Dialogue: 0,0:09:13.33,0:09:16.41,Default,,0,0,0,,Wh-wh-wh-what? I won't work with you!
+Dialogue: 0,0:09:16.41,0:09:19.70,Default,,0,0,0,,D-don't think that just because you're\Nkind of a looker that I'll listen to you!
+Dialogue: 0,0:09:19.70,0:09:21.29,Top,,0,0,0,,{\c&HFFFF&}Earlier...
+Dialogue: 0,0:09:19.70,0:09:21.29,Default,,0,0,0,,D-don't think that just because you're\Nkind of a looker that I'll listen to you!
+Dialogue: 0,0:09:21.66,0:09:26.25,Default,,0,0,0,,You called him a stain that just can't be\Nscrubbed from the toilet bowl of this world.
+Dialogue: 0,0:09:26.25,0:09:28.70,Default,,0,0,0,,That's actually very accurate, I think.
+Dialogue: 0,0:09:28.100,0:09:29.100,Default,,0,0,0,,What?
+Dialogue: 0,0:09:30.45,0:09:32.91,Default,,0,0,0,,He's a despicable person.
+Dialogue: 0,0:09:32.91,0:09:37.45,Default,,0,0,0,,He loves tormenting others\Nand gets kicks from it.
+Dialogue: 0,0:09:37.45,0:09:40.12,Default,,0,0,0,,Honestly, he's kind of a piece of shit.
+Dialogue: 0,0:09:40.45,0:09:41.95,Default,,0,0,0,,A piece of shit!
+Dialogue: 0,0:09:42.54,0:09:45.62,Default,,0,0,0,,I often wonder why a guy like him\Nwas even born.
+Dialogue: 0,0:09:45.62,0:09:48.91,Default,,0,0,0,,I always think about how everyone would be\Nbetter off if I could just kill him already.
+Dialogue: 0,0:09:48.91,0:09:52.41,Default,,0,0,0,,But the one thing you can trust about him\Nis his desire to kill dragons!
+Dialogue: 0,0:09:53.79,0:09:55.87,Default,,0,0,0,,That's why I joined forces with him.
+Dialogue: 0,0:09:56.20,0:10:01.70,Default,,0,0,0,,I decided that the two of us are going to\Nexterminate dragonkind together as a team!
+Dialogue: 0,0:10:02.70,0:10:05.100,Default,,0,0,0,,Exterminate... all the dragons?
+Dialogue: 0,0:10:06.66,0:10:08.100,Default,,0,0,0,,Hunting dragons is my forte!
+Dialogue: 0,0:10:08.100,0:10:10.70,Default,,0,0,0,,I'm better at it than\Nanyone else in the world!
+Dialogue: 0,0:10:11.20,0:10:13.33,Default,,0,0,0,,Use me, Silverware Princess!
+Dialogue: 0,0:10:13.33,0:10:15.08,Default,,0,0,0,,I promise I can help you!
+Dialogue: 0,0:10:20.04,0:10:22.66,Default,,0,0,0,,Huh? What's with that facial expression?
+Dialogue: 0,0:10:23.04,0:10:24.41,Default,,0,0,0,,Did I make her mad?
+Dialogue: 0,0:10:25.100,0:10:29.91,Default,,0,0,0,,The man she fell in love with at first sight\Nis ardently pleading her to use him.
+Dialogue: 0,0:10:29.91,0:10:33.50,Default,,0,0,0,,And she is just barely resisting\Nscreaming, "Yes!"
+Dialogue: 0,0:10:33.50,0:10:34.66,Default,,0,0,0,,However...
+Dialogue: 0,0:10:34.66,0:10:36.37,Default,,0,0,0,,You must not agree, Princess Lia!
+Dialogue: 0,0:10:36.37,0:10:38.54,Default,,0,0,0,,That man is undoubtably a pervert!
+Dialogue: 0,0:10:38.54,0:10:43.41,Default,,0,0,0,,He's the kind of degenerate who puts up\Nphotos of his crush all over his bedroom!
+Dialogue: 0,0:10:43.41,0:10:46.87,Default,,0,0,0,,I know he does! I can always\Nsniff out other freaks like me!
+Dialogue: 0,0:10:46.87,0:10:49.70,Default,,0,0,0,,I know for a fact he's depraved!
+Dialogue: 0,0:10:49.70,0:10:51.91,Default,,0,0,0,,But Ragna is her first love.
+Dialogue: 0,0:10:51.91,0:10:54.16,Default,,0,0,0,,She doesn't know how to act around him.
+Dialogue: 0,0:10:54.16,0:10:58.54,Default,,0,0,0,,And she can't allow herself to look like\Na pathetic simp in front of the corps.
+Dialogue: 0,0:10:58.54,0:11:00.25,Default,,0,0,0,,Thus, consequently...
+Dialogue: 0,0:11:00.58,0:11:04.04,Default,,0,0,0,,Very well. I accept your proposal.
+Dialogue: 0,0:11:04.50,0:11:05.87,Default,,0,0,0,,But do not be mistaken!
+Dialogue: 0,0:11:06.20,0:11:11.04,Default,,0,0,0,,I'm temporarily borrowing your power\Nfor strategic purposes and nothing more!
+Dialogue: 0,0:11:11.04,0:11:14.83,Default,,0,0,0,,I d-d-didn't make this decision because of\Nany personal feelings I have for you!
+Dialogue: 0,0:11:14.83,0:11:16.91,Default,,0,0,0,,Do not be mistaken!
+Dialogue: 0,0:11:17.62,0:11:20.62,Default,,0,0,0,,That was like a bad tsundere impression.
+Dialogue: 0,0:11:24.54,0:11:26.87,Default,,0,0,0,,What's so funny, filth!
+Dialogue: 0,0:11:27.45,0:11:28.87,Default,,0,0,0,,Sorry!
+Dialogue: 0,0:11:29.25,0:11:31.20,Default,,0,0,0,,That really tickled my funny bone!
+Dialogue: 0,0:11:31.87,0:11:33.33,Default,,0,0,0,,Nice play.
+Dialogue: 0,0:11:33.33,0:11:35.83,Default,,0,0,0,,I'm not a fan of being called\Na piece of shit,
+Dialogue: 0,0:11:35.83,0:11:38.58,Default,,0,0,0,,but I'll let it slide since the\NSilverware Princess had me in stitches.
+Dialogue: 0,0:11:38.58,0:11:40.58,Default,,0,0,0,,You told me to do it.
+Dialogue: 0,0:11:40.58,0:11:43.20,Default,,0,0,0,,I didn't tell you to call me a piece of shit.
+Dialogue: 0,0:11:43.41,0:11:45.45,Default,,0,0,0,,Is this a positive thing?
+Dialogue: 0,0:11:45.45,0:11:48.75,Default,,0,0,0,,Well, it's better than them\Nbeing outright hostile.
+Dialogue: 0,0:11:48.75,0:11:50.79,Default,,0,0,0,,But still... I just don't understand!
+Dialogue: 0,0:11:50.79,0:11:52.91,Default,,0,0,0,,Are you serious, Commander?
+Dialogue: 0,0:11:52.91,0:11:54.45,Default,,0,0,0,,I'm very serious!
+Dialogue: 0,0:11:54.45,0:11:55.87,Default,,0,0,0,,What about my fight with them?
+Dialogue: 0,0:11:55.87,0:11:57.41,Default,,0,0,0,,That will have to be postponed!
+Dialogue: 0,0:11:57.70,0:12:00.79,Default,,0,0,0,,A most excellent decision,\NSilverware Princess!
+Dialogue: 0,0:12:00.79,0:12:05.87,Default,,0,0,0,,We'll certainly pulverize those vile dragons\Nwith our combined forces.
+Dialogue: 0,0:12:05.87,0:12:10.66,Default,,0,0,0,,First, let's modify the plan\Nbased on my intel-
+Dialogue: 0,0:12:10.66,0:12:13.83,Default,,0,0,0,,You'll cough up the information\Nabout the dragons, and that's it.
+Dialogue: 0,0:12:13.83,0:12:15.91,Default,,0,0,0,,I will be the one doing the planning.
+Dialogue: 0,0:12:15.91,0:12:18.37,Default,,0,0,0,,That sure takes a load off my shoulders!
+Dialogue: 0,0:12:18.37,0:12:20.54,Default,,0,0,0,,Just please do make sure\Nyour plan has no holes.
+Dialogue: 0,0:12:20.54,0:12:22.87,Default,,0,0,0,,It'd be a pain for me to have to\Npatch them later.
+Dialogue: 0,0:12:22.87,0:12:23.95,Default,,0,0,0,,Hmph!
+Dialogue: 0,0:12:23.95,0:12:26.54,Default,,0,0,0,,Then riddle me this.
+Dialogue: 0,0:12:26.100,0:12:31.08,Default,,0,0,0,,A few hours ago, something about\Nthe dragons sieging us changed.
+Dialogue: 0,0:12:31.45,0:12:34.95,Default,,0,0,0,,If you know what happened to them, tell us.
+Dialogue: 0,0:12:34.95,0:12:36.37,Default,,0,0,0,,Ah, yes!
+Dialogue: 0,0:12:36.37,0:12:41.04,Default,,0,0,0,,That's because we fought against\Nthe Winged Monarch in the capital.
+Dialogue: 0,0:12:41.04,0:12:42.04,Default,,0,0,0,,What?
+Dialogue: 0,0:12:42.04,0:12:44.50,Default,,0,0,0,,They're probably going into a frenzy
+Dialogue: 0,0:12:44.50,0:12:47.79,Default,,0,0,0,,and rushing off to the capital\Nright about now.
+Dialogue: 0,0:12:55.08,0:12:59.04,Default,,0,0,0,,Why do we even keep you around,\Nyou senile old man!
+Dialogue: 0,0:13:00.91,0:13:03.37,Default,,0,0,0,,I have no excuse I can give you.
+Dialogue: 0,0:13:03.87,0:13:06.16,Default,,0,0,0,,Where is the progenitor now?
+Dialogue: 0,0:13:06.50,0:13:08.37,Default,,0,0,0,,The progenitor is...
+Dialogue: 0,0:13:12.83,0:13:14.54,Default,,0,0,0,,Why is this happening?
+Dialogue: 0,0:13:14.54,0:13:17.16,Default,,0,0,0,,So you've lost control of time, huh?
+Dialogue: 0,0:13:17.79,0:13:19.54,Default,,0,0,0,,I've said it before.
+Dialogue: 0,0:13:20.04,0:13:24.79,Default,,0,0,0,,Ultimate power that you get from\Nsomeone else is fickle.
+Dialogue: 0,0:13:27.25,0:13:28.95,Default,,0,0,0,,Why are you here?
+Dialogue: 0,0:13:29.33,0:13:33.33,Default,,0,0,0,,I told Nebulim not to let anyone enter!
+Dialogue: 0,0:13:33.33,0:13:35.45,Default,,0,0,0,,He let me waltz right in.
+Dialogue: 0,0:13:35.83,0:13:37.58,Default,,0,0,0,,That can't be true!
+Dialogue: 0,0:13:37.58,0:13:40.08,Default,,0,0,0,,You clearly must have threatened him\Nand forced your way in!
+Dialogue: 0,0:13:40.54,0:13:43.66,Default,,0,0,0,,Leave at once! I'm not in the mood\Nto chitchat with you n-
+Dialogue: 0,0:13:43.66,0:13:44.79,Default,,0,0,0,,Got you a souvenir.
+Dialogue: 0,0:13:44.79,0:13:47.16,Default,,0,0,0,,Wh-who is that?
+Dialogue: 0,0:13:47.16,0:13:51.62,Default,,0,0,0,,Hey, c'mon now. Did you actually forget\Nwhat you sent your errand boy to do?
+Dialogue: 0,0:13:51.62,0:13:54.54,Default,,0,0,0,,This is the person who killed Trois?
+Dialogue: 0,0:13:54.95,0:13:56.91,Default,,0,0,0,,Not convinced?
+Dialogue: 0,0:13:56.91,0:14:01.08,Default,,0,0,0,,You don't think a lowly hunter\Ncould've killed that dumb windbag, huh?
+Dialogue: 0,0:14:01.41,0:14:04.87,Default,,0,0,0,,Well, this guy was at the bottom of\Nthe barrel when it came to strength,
+Dialogue: 0,0:14:04.87,0:14:07.79,Default,,0,0,0,,but he had a good death.
+Dialogue: 0,0:14:09.25,0:14:12.66,Default,,0,0,0,,Guess what he said right before he croaked?
+Dialogue: 0,0:14:12.66,0:14:13.100,Default,,0,0,0,,I don't want to hear it!
+Dialogue: 0,0:14:14.45,0:14:16.75,Default,,0,0,0,,Finding amusement in the\Nlast words of someone
+Dialogue: 0,0:14:16.75,0:14:18.100,Default,,0,0,0,,who suffered while dying\Nis in such poor taste!
+Dialogue: 0,0:14:18.100,0:14:21.20,Default,,0,0,0,,If you say so.
+Dialogue: 0,0:14:21.20,0:14:24.83,Default,,0,0,0,,But to me, pretty much everyone else\Nin the world is insignificant trash.
+Dialogue: 0,0:14:24.83,0:14:27.100,Default,,0,0,0,,I haven't faced many opponents\Nwho wowed me.
+Dialogue: 0,0:14:28.29,0:14:31.41,Default,,0,0,0,,And what was this guy's attitude\Nwhen he looked death in the eyes?
+Dialogue: 0,0:14:31.41,0:14:34.58,Default,,0,0,0,,He was a weakling, yeah.\NBut he was a dragon hunter to the core.
+Dialogue: 0,0:14:37.54,0:14:39.91,Default,,0,0,0,,But if you ain't interested, so be it.
+Dialogue: 0,0:14:39.91,0:14:43.45,Default,,0,0,0,,I'll just keep his last words\Nbetween me and him.
+Dialogue: 0,0:14:46.04,0:14:47.79,Default,,0,0,0,,Then how 'bout this?
+Dialogue: 0,0:14:48.16,0:14:50.37,Default,,0,0,0,,One of the dragon hunters\NI dealt with had it.
+Dialogue: 0,0:14:53.08,0:14:55.75,Default,,0,0,0,,The craftsmanship is crude for a sword,
+Dialogue: 0,0:14:55.75,0:14:59.62,Default,,0,0,0,,but the amount of silverine infused in it\Nand its chilling power is bananas.
+Dialogue: 0,0:14:59.83,0:15:03.91,Default,,0,0,0,,Even I have to grip it with everything\NI've got or my hand gets numb.
+Dialogue: 0,0:15:04.29,0:15:07.62,Default,,0,0,0,,P-please get that thing away from me!
+Dialogue: 0,0:15:07.62,0:15:10.12,Default,,0,0,0,,Don't be all shook up by it. Look, see!
+Dialogue: 0,0:15:10.12,0:15:11.45,Default,,0,0,0,,St-stop it!
+Dialogue: 0,0:15:11.45,0:15:13.08,Default,,0,0,0,,No! Seriously!
+Dialogue: 0,0:15:13.08,0:15:15.100,Default,,0,0,0,,I said stop it!
+Dialogue: 0,0:15:23.25,0:15:25.37,Default,,0,0,0,,What are you playing at?
+Dialogue: 0,0:15:25.87,0:15:28.45,Default,,0,0,0,,You're holding it. The sword.
+Dialogue: 0,0:15:29.16,0:15:30.58,Default,,0,0,0,,It's cold!
+Dialogue: 0,0:15:30.58,0:15:34.08,Default,,0,0,0,,Want me to tell you why\Nyou can't control time anymore?
+Dialogue: 0,0:15:34.83,0:15:36.58,Default,,0,0,0,,You're probably thinking,
+Dialogue: 0,0:15:36.58,0:15:40.12,Default,,0,0,0,,"God is disappointed in my worthless,\Npathetic self," aren't ya?
+Dialogue: 0,0:15:40.37,0:15:43.75,Default,,0,0,0,,Don't worry.\NIt's nothing as dramatic as that.
+Dialogue: 0,0:15:44.16,0:15:47.12,Default,,0,0,0,,The reason you can't control time is simple.
+Dialogue: 0,0:15:48.12,0:15:50.25,Default,,0,0,0,,It's because you've lost in your heart.
+Dialogue: 0,0:15:50.54,0:15:51.75,Default,,0,0,0,,My heart?
+Dialogue: 0,0:15:51.75,0:15:55.37,Default,,0,0,0,,Magic is a means to change the world.
+Dialogue: 0,0:15:55.37,0:15:57.70,Default,,0,0,0,,You need three things to do that.
+Dialogue: 0,0:15:57.95,0:16:00.50,Default,,0,0,0,,You need the magical power\Nto create change.
+Dialogue: 0,0:16:00.50,0:16:03.29,Default,,0,0,0,,You need the process that gives\Ndirection to that change.
+Dialogue: 0,0:16:03.54,0:16:08.87,Default,,0,0,0,,And lastly, you need the confidence to control\Nthe change once it's been actualized.
+Dialogue: 0,0:16:08.87,0:16:11.83,Default,,0,0,0,,Y-you're saying it's a mental problem?
+Dialogue: 0,0:16:11.83,0:16:14.04,Default,,0,0,0,,I bet every time you use magic,
+Dialogue: 0,0:16:14.04,0:16:16.87,Default,,0,0,0,,the image of your enemy\Nsurges through your mind, right?
+Dialogue: 0,0:16:18.75,0:16:22.25,Default,,0,0,0,,That enemy could move even though\NI made the world fall still!
+Dialogue: 0,0:16:22.25,0:16:24.58,Default,,0,0,0,,Even though I did not give him\Npermission to move,
+Dialogue: 0,0:16:24.58,0:16:27.04,Default,,0,0,0,,he attacked me while time was stopped!
+Dialogue: 0,0:16:27.33,0:16:30.12,Default,,0,0,0,,I dunno why he didn't stop moving.
+Dialogue: 0,0:16:30.12,0:16:35.25,Default,,0,0,0,,But the reason everything else won't stop\Nis because you've lost in your heart.
+Dialogue: 0,0:16:36.37,0:16:38.75,Default,,0,0,0,,The Winged Monarch? What a laugh!
+Dialogue: 0,0:16:38.75,0:16:41.62,Default,,0,0,0,,Right now, your heart is too beaten down\Nto rule over anything.
+Dialogue: 0,0:16:41.62,0:16:43.20,Default,,0,0,0,,You're more like Traumatia now.
+Dialogue: 0,0:16:44.54,0:16:46.58,Default,,0,0,0,,Traumatia?
+Dialogue: 0,0:16:51.100,0:16:53.100,Default,,0,0,0,,What should I do?
+Dialogue: 0,0:16:54.70,0:16:57.79,Default,,0,0,0,,What do I need to do to use\NTime Control Magic again?
+Dialogue: 0,0:16:58.04,0:16:59.50,Default,,0,0,0,,That's a piece of cake.
+Dialogue: 0,0:16:59.50,0:17:01.33,Default,,0,0,0,,You gotta forget your fear.
+Dialogue: 0,0:17:02.29,0:17:03.70,Default,,0,0,0,,Take that sword.
+Dialogue: 0,0:17:04.08,0:17:05.66,Default,,0,0,0,,You were afraid of it at first,
+Dialogue: 0,0:17:05.66,0:17:07.95,Default,,0,0,0,,but then you grabbed it without faltering\Nand cut me down.
+Dialogue: 0,0:17:08.54,0:17:12.16,Default,,0,0,0,,For a second, you forgot your fear\Nbecause of the rage you felt towards me.
+Dialogue: 0,0:17:12.45,0:17:15.41,Default,,0,0,0,,Forget my fear...
+Dialogue: 0,0:17:15.79,0:17:17.79,Default,,0,0,0,,Forget my fear of the enemy...
+Dialogue: 0,0:17:20.20,0:17:22.16,Default,,0,0,0,,Don't act like it's so easy!
+Dialogue: 0,0:17:22.16,0:17:24.75,Default,,0,0,0,,If it was that straightforward,\NI wouldn't be struggling like this!
+Dialogue: 0,0:17:24.75,0:17:26.75,Default,,0,0,0,,Command me.
+Dialogue: 0,0:17:27.66,0:17:30.70,Default,,0,0,0,,Command me to obliterate\Nthe source of your fear,
+Dialogue: 0,0:17:30.70,0:17:32.95,Default,,0,0,0,,and your fear will be a thing of the past.
+Dialogue: 0,0:17:33.33,0:17:34.66,Default,,0,0,0,,Say it.
+Dialogue: 0,0:17:34.66,0:17:36.91,Default,,0,0,0,,What do you want me to do?
+Dialogue: 0,0:17:40.91,0:17:43.29,Default,,0,0,0,,No. I won't command you.
+Dialogue: 0,0:17:43.29,0:17:44.20,Default,,0,0,0,,What?
+Dialogue: 0,0:17:44.20,0:17:48.25,Default,,0,0,0,,Losing my Time Control Magic is simply\Nmy own personal failure.
+Dialogue: 0,0:17:48.25,0:17:53.16,Default,,0,0,0,,I can't use you, my greatest weapon,\Nto get my power back.
+Dialogue: 0,0:17:53.62,0:17:55.100,Default,,0,0,0,,Right now, the top priority is\Nto annihilate this country
+Dialogue: 0,0:17:55.100,0:18:00.58,Default,,0,0,0,,so the world can be shaped as God desires.
+Dialogue: 0,0:18:00.95,0:18:04.54,Default,,0,0,0,,That is my sole duty as\Nthe Winged Progenitor.
+Dialogue: 0,0:18:04.54,0:18:07.50,Default,,0,0,0,,Well, I didn't want the answer\NI should use to ace the test.
+Dialogue: 0,0:18:07.50,0:18:09.50,Default,,0,0,0,,Tell me what you really want.\NWhat you truly desire.
+Dialogue: 0,0:18:09.50,0:18:10.83,Default,,0,0,0,,What?
+Dialogue: 0,0:18:10.83,0:18:14.08,Default,,0,0,0,,What you really want me to do is...
+Dialogue: 0,0:18:14.08,0:18:15.54,Default,,0,0,0,,get revenge, right?
+Dialogue: 0,0:18:21.33,0:18:24.25,Default,,0,0,0,,Then how 'bout I tell you\Nwhat I really want first?
+Dialogue: 0,0:18:24.25,0:18:29.50,Default,,0,0,0,,It enrages me that some bastard\Ntried to kill my woman while I was gone.
+Dialogue: 0,0:18:33.16,0:18:35.66,Default,,0,0,0,,Since when did I become your woman!
+Dialogue: 0,0:18:36.70,0:18:42.66,Default,,0,0,0,,How long will you insist on clowning around\Nand making a fool of me!
+Dialogue: 0,0:18:42.66,0:18:47.100,Default,,0,0,0,,If you don't intend on listening to me,\Ngo ahead and fight! That's fine by me!
+Dialogue: 0,0:18:47.100,0:18:51.20,Default,,0,0,0,,I want to fight because you ordered me to.
+Dialogue: 0,0:18:51.50,0:18:54.20,Default,,0,0,0,,I'm not gonna bow and scrape\Nbecause you're the progenitor
+Dialogue: 0,0:18:54.20,0:18:56.41,Default,,0,0,0,,or worship you like some saint.
+Dialogue: 0,0:18:56.41,0:19:00.04,Default,,0,0,0,,To me, you're just an unhinged woman.
+Dialogue: 0,0:19:00.04,0:19:01.04,Default,,0,0,0,,An unhin-?
+Dialogue: 0,0:19:01.04,0:19:04.12,Default,,0,0,0,,And I'm following this unhinged woman\Nof my own volition.
+Dialogue: 0,0:19:04.12,0:19:06.25,Default,,0,0,0,,I don't give a rat's ass about God,\Nor allegiance to our blood,
+Dialogue: 0,0:19:06.25,0:19:07.79,Default,,0,0,0,,or any of that garbage.
+Dialogue: 0,0:19:10.29,0:19:14.58,Default,,0,0,0,,So you can act however you want around me.
+Dialogue: 0,0:19:15.08,0:19:16.100,Default,,0,0,0,,You can piss and moan about your problems.
+Dialogue: 0,0:19:16.100,0:19:18.100,Default,,0,0,0,,You can blow your top and bawl your eyes out.
+Dialogue: 0,0:19:18.100,0:19:21.29,Default,,0,0,0,,You can be selfish like a child.
+Dialogue: 0,0:19:21.29,0:19:25.58,Default,,0,0,0,,For you, I can take it all.\NI'll always be by your side.
+Dialogue: 0,0:19:25.91,0:19:29.79,Default,,0,0,0,,Th-there's no way\NI can allow that for myself.
+Dialogue: 0,0:19:29.79,0:19:32.91,Default,,0,0,0,,I have a duty to my God and bloodline.
+Dialogue: 0,0:19:32.91,0:19:37.04,Default,,0,0,0,,And above all, I have a duty to the\Nimmense number of people we've killed.
+Dialogue: 0,0:19:37.04,0:19:38.37,Default,,0,0,0,,My personal desires-
+Dialogue: 0,0:19:38.37,0:19:41.58,Default,,0,0,0,,And I don't doubt that those are\Nyour true feelings.
+Dialogue: 0,0:19:41.91,0:19:44.79,Default,,0,0,0,,But that's not what I'm trying to ask you.
+Dialogue: 0,0:19:45.54,0:19:46.95,Default,,0,0,0,,Say it.
+Dialogue: 0,0:19:46.95,0:19:48.100,Default,,0,0,0,,Tell me what you want me to do.
+Dialogue: 0,0:19:54.37,0:19:56.87,Default,,0,0,0,,Bring... me...
+Dialogue: 0,0:19:58.33,0:19:59.95,Default,,0,0,0,,their heads.
+Dialogue: 0,0:20:03.83,0:20:05.75,Default,,0,0,0,,I actually said it.
+Dialogue: 0,0:20:06.37,0:20:08.62,Default,,0,0,0,,Everything is their fault.
+Dialogue: 0,0:20:08.62,0:20:10.83,Default,,0,0,0,,If it wasn't for them...
+Dialogue: 0,0:20:10.83,0:20:12.12,Default,,0,0,0,,I'm sick of it...
+Dialogue: 0,0:20:12.12,0:20:14.37,Default,,0,0,0,,I'm sick of it! I'm so sick of it!
+Dialogue: 0,0:20:14.37,0:20:16.75,Default,,0,0,0,,I cannot bear it any longer!
+Dialogue: 0,0:20:16.75,0:20:21.25,Default,,0,0,0,,Why is it that we're the only ones who suffer\Nwhile they get to continue living?
+Dialogue: 0,0:20:21.25,0:20:24.37,Default,,0,0,0,,It's simply not fair!
+Dialogue: 0,0:20:24.91,0:20:27.16,Default,,0,0,0,,This is an order, Woltekamui!
+Dialogue: 0,0:20:27.16,0:20:28.91,Default,,0,0,0,,Kill them!
+Dialogue: 0,0:20:29.45,0:20:33.33,Default,,0,0,0,,Use the full extent of your\Nphenomenal fighting prowess!
+Dialogue: 0,0:20:33.66,0:20:38.95,Default,,0,0,0,,Rip off their heads and bring them to me!
+Dialogue: 0,0:20:42.45,0:20:44.45,Default,,0,0,0,,Attagirl.
+Dialogue: 0,0:20:44.45,0:20:45.87,Default,,0,0,0,,Leave it to me.
+Dialogue: 0,0:20:46.08,0:20:48.91,Default,,0,0,0,,Your wish is my command.
+Dialogue: 0,0:20:55.50,0:20:56.41,Default,,0,0,0,,Tia!
+Dialogue: 0,0:20:56.41,0:20:58.08,Default,,0,0,0,,Lady Ultimatia!
+Dialogue: 0,0:21:00.79,0:21:02.54,Default,,0,0,0,,I'm sorry, Tia!
+Dialogue: 0,0:21:02.54,0:21:04.75,Default,,0,0,0,,I wasn't there when you really needed me.
+Dialogue: 0,0:21:04.75,0:21:07.91,Default,,0,0,0,,No, I'm sorry for making you worry!
+Dialogue: 0,0:21:07.91,0:21:10.33,Default,,0,0,0,,I'm okay now.
+Dialogue: 0,0:21:10.75,0:21:12.83,Default,,0,0,0,,Oh, that's right! Nebulim!
+Dialogue: 0,0:21:13.33,0:21:15.29,Default,,0,0,0,,Are you all right?
+Dialogue: 0,0:21:15.29,0:21:19.45,Default,,0,0,0,,This oaf threatened you into letting him\Ninto my chamber, didn't he?
+Dialogue: 0,0:21:19.45,0:21:23.33,Default,,0,0,0,,The kiddo said it was totally cool\Nfor me to go in. Right?
+Dialogue: 0,0:21:23.33,0:21:24.70,Default,,0,0,0,,{\c&HFFFF&}You liar!\N{\c&HFFFFFF&}It is true, Lady Ultimatia.
+Dialogue: 0,0:21:24.70,0:21:26.54,Default,,0,0,0,,{\c&HFFFF&}Nebulim would never disobey my orders.\N{\c&HFFFFFF&}It is true, Lady Ultimatia.
+Dialogue: 0,0:21:26.54,0:21:28.79,Default,,0,0,0,,{\c&HFFFF&}Nebulim would never disobey my orders.\N{\c&HFFFFFF&}I let Kamui walk right in.
+Dialogue: 0,0:21:28.79,0:21:29.25,Default,,0,0,0,,{\c&HFFFF&}He's a good boy, unlike you.
+Dialogue: 0,0:21:29.25,0:21:31.16,Default,,0,0,0,,{\c&HFFFF&}He's a good boy, unlike you.\N{\c&HFFFFFF&}Given the state you were in,
+Dialogue: 0,0:21:31.16,0:21:34.25,Top,,0,0,0,,{\c&HFFFF&}You shouldn't set such high expectations\Nfor kiddos, ya know?
+Dialogue: 0,0:21:31.16,0:21:34.25,Default,,0,0,0,,I knew only Kamui's words\Nwould get through to you.
+Dialogue: 0,0:21:34.25,0:21:37.66,Top,,0,0,0,,{\c&HFFFF&}You have some nerve trying to admonish me!
+Dialogue: 0,0:21:34.25,0:21:37.66,Default,,0,0,0,,What can I do to get closer to\NLady Ultimatia's heart?
+Dialogue: 0,0:21:37.66,0:21:38.45,Default,,0,0,0,,What can I do to get closer to\NLady Ultimatia's heart?
+Dialogue: 0,0:21:39.33,0:21:41.41,Default,,0,0,0,,As close as he is to her...
+Dialogue: 0,0:21:45.41,0:21:47.37,Default,,0,0,0,,What was that? Huh?
+Dialogue: 0,0:21:47.62,0:21:49.12,Default,,0,0,0,,The Reaper...
+Dialogue: 0,0:21:49.79,0:21:51.50,Default,,0,0,0,,will...
+Dialogue: 0,0:21:52.37,0:21:53.100,Default,,0,0,0,,hunt you!
+Dialogue: 0,0:21:54.79,0:21:57.41,Default,,0,0,0,,That guy really got my hopes up.
+Dialogue: 0,0:21:57.41,0:22:00.20,Default,,0,0,0,,When was the last time I felt\Nthis pumped to fight someone?
+Dialogue: 0,0:22:00.20,0:22:01.100,Default,,0,0,0,,And an opponent I've never even seen!
+Dialogue: 0,0:22:01.100,0:22:05.83,Default,,0,0,0,,When we finally face down, let's have a fight\Nto the death that'll go down in history!
+Dialogue: 0,0:22:06.16,0:22:09.95,Default,,0,0,0,,Whaddaya think, Reaper?
