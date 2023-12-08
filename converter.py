@@ -148,7 +148,7 @@ for path in args.path:
         color = [y.strip(" color:").strip("#") for y in x[-1] if "color" in y]
         fontstyle = [y.strip(" font-style:") for y in x[-1] if "font-style" in y]
         if fontstyle and "italic" in fontstyle[0].lower():
-            add += f"\\i1"
+            add += "\\i1"
         elif fontstyle:
             print(f"Unknown fontsyle: {fontstyle}")
         if size and (size := size[0].replace(".", "0.").strip("em")) and size != "1":
@@ -191,11 +191,11 @@ for path in args.path:
     for s, x in enumerate(sub):
         if names[s][-1] != "1":
             if sub[s - 1].style == x.style:
-                color = (
-                    "{\\c&HFFFFFF&}"
-                    if "c&HFFFF&" in sub[s - 1].text and "{" not in x.text
-                    else ""
-                )
+                plus = "".join([
+                    "\\c&HFFFFFF&" if "c&HFFFF&" in sub[s - 1].text else "",
+                    "\\i0" if "\\i1" in sub[s - 1].text else "",
+                ])
+
                 if "}" in x.text:
                     sec = x.text.split("}")
                     sec_ = sec[0].strip("{\\").split("\\")
@@ -205,10 +205,15 @@ for path in args.path:
                         if ("pos" not in y) and (y not in sub[s - 1].text)
                     ]
                     if sec_:
-                        x.text = "{" + "\\" + "\\".join(sec_) + "}" + sec[-1]
+                        x.text = "{" + "\\" + "\\".join(sec_) + plus + "}" + sec[-1]
+                    elif plus:
+                        x.text = "{" + plus + "}" + sec[-1]
                     else:
                         x.text = sec[-1]
-                sub[s - 1].text += f"\\N{color}{x.text}"
+                else:
+                    x.text = "{" + plus + "}" + x.text
+
+                sub[s - 1].text += f"\\N{x.text}"
                 s += 1
                 skip = True
         if skip:
@@ -222,9 +227,6 @@ for path in args.path:
     sub_formatted.info["YCbCr Matrix"] = "TV.709"
 
     if args.remove_bumper:
-        b_time = get_mill("00:00:04.963")
-        for line in sub_formatted:
-            line.start -= b_time
-            line.end -= b_time
+        sub_formatted.shift(s=-0.5)
 
     sub_formatted.save(path.with_suffix(".ass"))
