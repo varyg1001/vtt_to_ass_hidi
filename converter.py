@@ -227,6 +227,6 @@ for path in args.path:
     sub_formatted.info["YCbCr Matrix"] = "TV.709"
 
     if args.remove_bumper:
-        sub_formatted.shift(s=-0.5)
+        sub_formatted.shift(s=-5)
 
     sub_formatted.save(path.with_suffix(".ass"))
