@@ -5,6 +5,7 @@ import sys
 import re
 from copy import deepcopy
 from pathlib import Path
+from textwrap import wrap
 
 from pysubs2 import SSAFile, SSAEvent, SSAStyle
 
@@ -37,7 +38,6 @@ COLORS = {
     "white": "FFFF",
     "yellow": "FFFFFF",
     "FFFFFF": "FFFF",
-    "HFFFF00": "FFFF",
 }
 
 res_x: int = 640
@@ -68,10 +68,10 @@ for path in args.path:
     # styles
     sub.styles["Default"].shadow = 0
     sub.styles["Default"].outline = 1
-    sub.styles["Default"].fontsize = 22
+    sub.styles["Default"].fontsize = 25
     sub.styles["Top"] = sub.styles["Default"].copy()
     sub.styles["Top"].alignment = SSAStyle.alignment.TOP_CENTER
-    sub.styles["Top"].fontsize = 20
+    sub.styles["Top"].fontsize = 23
 
     # get all styles
     if styles := re.findall(r"<c.(.*)-C[0-9]+_[1-9]", path.read_text()):
@@ -86,7 +86,7 @@ for path in args.path:
     if "Caption" in styles:
         sub.styles["Caption"].shadow = 0.5
     elif "Song" in styles:
-        sub.styles["Song"].fontsize = 20
+        sub.styles["Song"].fontsize = 22
 
     for x, line in enumerate(lines):
         if line.startswith(tuple(styles)):
@@ -97,8 +97,9 @@ for path in args.path:
 
             if line.startswith("Song"):
                 event.style = "Song"
-            if line.startswith("Caption"):
-                position = re.search(r"position:(\d+)", lines[x + 1]).group(1) or 0
+            if line.startswith("Caption") and "position:" in lines[x + 1] and "line:" in lines[x + 1]:
+                if p_ := re.search(r"position:(\d+)", lines[x + 1]):
+                    position = p_.group(1)
                 line = re.search(r"line:(\d+)", lines[x + 1]).group(1) or 0
                 ry = round(res_y * float(line) / 100, 2)
                 rx = round(res_x * float(position) / 100, 2)
@@ -141,17 +142,17 @@ for path in args.path:
                 formatting.append(data)
 
     # filter and add formatting from css file
-    for x in formatting:
+    for x in formatting[1:]:
         add = ""
         font = [y for y in x[-1] if "font-family" in y]
-        size = [y.strip(" font-size:") for y in x[-1] if "font-size" in y]
+        size = [y.strip(" font-size") for y in x[-1] if "font-size" in y]
         color = [y.strip(" color:").strip("#") for y in x[-1] if "color" in y]
         fontstyle = [y.strip(" font-style:") for y in x[-1] if "font-style" in y]
         if fontstyle and "italic" in fontstyle[0].lower():
             add += "\\i1"
         elif fontstyle:
             print(f"Unknown fontsyle: {fontstyle}")
-        if size and (size := size[0].replace(".", "0.").strip("em")) and size != "1":
+        if size and (size := size[0].replace(":.", "0.").strip(":").strip("em")) and size != "1":
             add += f"\\fs{size}"
         if font and (font := font[0].split(",")[-1].strip('"')) and font != "Arial":
             add += f"\\fn{font}"
@@ -162,7 +163,7 @@ for path in args.path:
             and color != "FFFFFF"
             and "font-style:italic" not in x
         ):
-            add += f"\\c&H{COLORS.get(color, color)}&"
+            add += f"\\c&H{COLORS.get(color, ''.join(reversed(wrap(color, 2))))}&"
 
         if add:
             for y in x[:-1]:
@@ -210,7 +211,7 @@ for path in args.path:
                         x.text = "{" + plus + "}" + sec[-1]
                     else:
                         x.text = sec[-1]
-                else:
+                elif plus:
                     x.text = "{" + plus + "}" + x.text
 
                 sub[s - 1].text += f"\\N{x.text}"
